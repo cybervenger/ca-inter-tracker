@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>70 Days — CA Inter Command Center</title>
+<link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+  <div class="app">
+
+    <!-- ===== TOP SPINE ===== -->
+    <header class="spine">
+      <div class="spine-row">
+        <div class="spine-day">
+          <span class="spine-num" id="dayNum">1</span>
+          <span class="spine-of">/ 70</span>
+        </div>
+        <div class="spine-mid">
+          <div class="spine-track"><div class="spine-fill" id="spineFill"></div></div>
+          <div class="spine-sub" id="spineSub">70 days remaining</div>
+        </div>
+        <div class="spine-metrics" id="spineMetrics"></div>
+      </div>
+    </header>
+
+    <div class="layout">
+
+      <!-- ===== LEFT NAV ===== -->
+      <nav class="nav">
+        <button class="nav-item is-active" data-view="today" id="navToday">Today</button>
+        <button class="nav-item" data-view="dashboard" id="navDashboard">Dashboard</button>
+        <div class="nav-divider"></div>
+        <div class="nav-label">Group I</div>
+        <div id="navGroup1"></div>
+        <div class="nav-label">Group II</div>
+        <div id="navGroup2"></div>
+      </nav>
+
+      <!-- ===== MAIN PANE ===== -->
+      <main class="main" id="mainView"></main>
+
+    </div>
+  </div>
+
+  <!-- ===== Chapter detail modal ===== -->
+<div class="modal-backdrop" id="modalBackdrop">
+    <div class="modal" id="modalBody"></div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="scheduler.js"></script>
+  <script src="app.js"></script>
+  </body>
+  </html>
+  
