@@ -1,4 +1,3 @@
-```javascript
 const TRACKER_DATA = {
   "meta": {
     "startDate": "2026-06-22",
@@ -3021,5 +3020,3 @@ const TRACKER_DATA = {
     }
   ]
 };
-
-```
