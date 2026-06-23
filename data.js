@@ -23,42 +23,86 @@ const TRACKER_DATA = {
                   name: "Corporate & Other Laws",
                   group: 1,
                   chapters: [
-                    {
-                                id: "p2-c1",
-                                name: "The General Clauses Act, 1897",
-                                weightage: "Medium",
-                                pdfLink: "https://resource.cdn.icai.org/87784bos-aps2160-p2-ch1.pdf",
-                                status: "in-progress",
-                                lastTouched: "2026-06-22",
-                                revisionCount: 1,
-                                practice: { mcqAttempted: 0, mcqCorrect: 0, numericalsAttempted: 0, numericalsCorrect: 0 },
-                                            breakdown: {
-                                                          tier1: [
-                                                            { term: "Immovable property", ref: "S.3(26)", body: "Land, benefits to arise out of land, things attached to earth, or permanently fastened to anything attached to earth." },
-                                                            { term: "Movable property", ref: "S.3(36)", body: "Property of every description, except immovable property." },
-                                                            { term: "Financial year", ref: "S.3(21)", body: "1 April to 31 March." },
-                                                            { term: "Year", ref: "S.3(66)", body: "British calendar year, Jan to Dec." },
-                                                            { term: "Good faith", ref: "S.3(22)", body: "Done honestly, whether negligently or not. Honesty test, not a due-care test." },
-                                                            { term: "Document", ref: "S.3(18)", body: "Any matter written/expressed on any substance by letters, figures, or marks, meant for recording." },
-                                                            { term: "Person", ref: "S.3(42)", body: "Includes any company, association, or body of individuals, incorporated or not." },
-                                                            { term: "Affidavit / Oath / Swear", ref: "S.3(3)/(37)/(62)", body: "All three include affirmation & declaration where swearing isn't legally required. Identical wording across all three." },
-                                                            { term: "\u201cMeans\u201d vs \u201cincludes\u201d", ref: "definitional rule", body: "\u2018Means\u2019 = exhaustive definition. \u2018Includes\u2019 = inclusive/extensive, not restricted to listed items." },
-                                                            { term: "Effect of repeal", ref: "S.6", body: "Repeal does NOT: revive anything, undo past operation, affect accrued rights/penalties, or kill pending litigation." }
-                                                                        ],
-                                                                        caseLaws: [
-                                                                          { case: "Ananda Behera v. Orissa", point: "Right to catch fish = immovable property (profit a prendre)." },
-                                                                          { case: "Shantabai v. Bombay", point: "Standing trees = immovable (rooted in earth); cut timber is NOT immovable." },
-                                                                          { case: "Kolhapur Canesugar v. UOI", point: "S.6 (repeal effect) applies only to repeal, not omission; applies to Act/Regulation, not Rules." },
-                                                                          { case: "United Commercial Bank v. Bhim Sain Makhija", point: "Plain registered post is NOT valid service if the rule specifically demands 'acknowledgement due'." },
-                                                                          { case: "State of MP v. V.R. Agnihotri", point: "Acquittal on one charge doesn't bar conviction on the other charge in the same trial (S.26)." }
-                                                                                      ],
-                                                                                      numericalPatterns: [
-                                                                                        { name: "Section 9 \u2014 commencement & termination of time", howTo: "\u2018from\u2019 excludes the first day, \u2018to\u2019 includes the last day. Drives every dividend-timeline / notice-period numerical in this chapter." }
-                                                                                                    ],
-                                                                                                    notes: "Triaged on day 1. Tier-1 list covers the recurring MCQ/descriptive patterns from the ICAI module; case law kept to one line each (exam only needs the holding, not facts)."
-                                            }
-                    }
-                          ]
+                    {// Pending LAW chapters - paste these chapter objects directly into the
+// "Corporate & Other Laws" (id: "p2") subject's chapters: [...] array in data.js,
+// alongside the existing General Clauses Act chapter.
+// Source: Google Drive "law" folder, law1.pdf and law2.pdf (Companies Act 2013, Chapters I & II)
+// 13 more chapters (law3-law15) pending for a future session.
+
+const PENDING_LAW_CHAPTERS = [
+  {
+    id: "p2-c2",
+    name: "Preliminary (Companies Act 2013, Ch. I) - Definitions",
+    weightage: "High",
+    pdfLink: "",
+    status: "not-started",
+    lastTouched: "2026-06-23",
+    revisionCount: 1,
+    practice: { mcqAttempted: 0, mcqCorrect: 0, numericalsAttempted: 0, numericalsCorrect: 0 },
+    breakdown: {
+      tier1: [
+        { term: "Act extent & commencement", ref: "S.1", body: "Extends to whole of India. Different sections commenced on different notified dates (not all at once on 30 Aug 2013)." },
+        { term: "Act applies to", ref: "S.1", body: "Companies incorporated under this/previous Act, insurance/banking/electricity companies (except where inconsistent with their special Act), companies under special Acts, notified body corporates." },
+        { term: "Associate Company & Significant Influence", ref: "S.2(6)", body: "Significant influence = control of at least 20% voting power OR participation in business decisions under agreement. Not a subsidiary, includes joint ventures." },
+        { term: "Free Reserves", ref: "S.2(43)", body: "Reserves available for dividend per latest audited balance sheet. EXCLUDES unrealised/notional gains and revaluation reserves." },
+        { term: "Government Company", ref: "S.2(45)", body: "Not less than 51% paid-up share capital held by Central/State Govt (singly or jointly), including subsidiaries of such company." },
+        { term: "Small Company", ref: "S.2(85)", body: "Non-public company with paid-up capital <= Rs.4 crore AND turnover <= Rs.40 crore (both conditions must hold). Excludes holding/subsidiary companies, S.8 companies, special Act companies." },
+        { term: "Private vs Public Company", ref: "S.2(68)/(71)", body: "Private: restricts share transfer, max 200 members (employees excluded), prohibits public invitation. Public: not private + min paid-up capital as prescribed. A private subsidiary of a public company is DEEMED public." },
+        { term: "Key Managerial Personnel (KMP)", ref: "S.2(51)", body: "CEO/MD/Manager, Company Secretary, Whole-time Director, CFO, + one officer below directors in whole-time employment designated as KMP by Board." },
+        { term: "Related Party", ref: "S.2(76)", body: "Director/KMP + relatives, firms/private cos where they're partner/member/director, public cos where they hold >2% with relatives, holding/subsidiary/associate companies." },
+        { term: "Officer in Default", ref: "S.2(60)", body: "WTD, KMP, or (if none) Board-specified director(s), or any person under whose advice Board acts (non-professional), or director aware of contravention without objecting." },
+        { term: "Net Worth", ref: "S.2(57)", body: "Paid-up capital + reserves from profits + securities premium +/- P&L balance, LESS accumulated losses/deferred expenditure. EXCLUDES revaluation reserves, write-back of depreciation, amalgamation reserves." }
+      ],
+      caseLaws: [],
+      numericalPatterns: [
+        { name: "Subscribed/Issued/Called-up/Paid-up capital chain", howTo: "Authorised >= Subscribed >= Issued >= Called-up >= Paid-up. Work through each stage sequentially using the given share numbers and per-share amounts (see worked example: ABC Ltd. with 7,00,000 issued shares, Rs.8 called, 6000 shares partly unpaid)." }
+      ],
+      notes: "This is the definitions chapter - huge volume of S.2 clauses (90+ terms). High-yield exam terms are the ones with numeric thresholds (Small Company, Government Company, Significant Influence %) since MCQs love testing exact percentages/amounts. Don't try to memorize all 90+ clauses - focus on the ones with numbers or clear distinguishing tests."
+    }
+  },
+  {
+    id: "p2-c3",
+    name: "Incorporation of Company and Matters Incidental Thereto (Companies Act 2013, Ch. II)",
+    weightage: "High",
+    pdfLink: "",
+    status: "not-started",
+    lastTouched: "2026-06-23",
+    revisionCount: 1,
+    practice: { mcqAttempted: 0, mcqCorrect: 0, numericalsAttempted: 0, numericalsCorrect: 0 },
+    breakdown: {
+      tier1: [
+        { term: "Minimum members to form a company", ref: "S.3", body: "Public: 7+. Private: 2+. OPC: 1 (as a private company). All companies can be limited by shares, limited by guarantee, or unlimited." },
+        { term: "One Person Company (OPC) eligibility", ref: "S.3(1) + Rules", body: "Only natural person, NOT a minor, Indian citizen (resident or not). Resident = stayed in India 120+ days in preceding FY. Cannot be a S.8 company or do NBFC investment activities. Person can be member of only ONE OPC at a time." },
+        { term: "Severally liable members (reduced membership)", ref: "S.3A", body: "If members fall below 7 (public)/2 (private) and business continues 6+ months with knowledge, those members become SEVERALLY liable for debts contracted after the 6-month mark." },
+        { term: "Certificate of Incorporation (CoI)", ref: "S.7", body: "Issued via SPICe+ form. CoI is NOT conclusive proof of everything prior to incorporation being in order (changed from old law) - especially not proof of legality of objects clause." },
+        { term: "Corporate Identity Number (CIN) structure", ref: "concept", body: "21 alphanumeric digits: Listing status (L/U) + 5-digit industry code + 2-letter state code + 4-digit incorporation year + 3-letter classification (PLC/PTC/FTC/GOI) + 6-digit ROC registration number." },
+        { term: "Section 8 Companies (charitable objects)", ref: "S.8", body: "Promotes commerce/art/science/charity etc., applies profits to objects, PROHIBITS dividend payment. No 'Limited'/'Private Limited' suffix needed. Cannot be formed as OPC or small company. Conversion to other company types or revocation of license follows a detailed Tribunal/Regional Director process." },
+        { term: "Doctrine of Ultra Vires", ref: "concept + S.4(1)(c)", body: "Acts beyond the objects clause in MOA are void and CANNOT be ratified even by 100% shareholder consent. Landmark case: Ashbury Railway Carriage v. Riche." },
+        { term: "Doctrine of Constructive Notice", ref: "concept", body: "Everyone dealing with a company is DEEMED to know contents of MOA/AOA (public documents) whether they actually read them or not. Based on Ernest v Nicholls." },
+        { term: "Doctrine of Indoor Management (Turquand's Rule)", ref: "concept", body: "Outsiders can assume internal procedures (board approvals, resolutions) were properly followed - exception to Constructive Notice. From Royal British Bank v. Turquand. Exceptions: outsider has actual knowledge of irregularity, negligence in not checking obvious red flags, forgery, or the act is ultra vires the COMPANY itself (not just the officer)." },
+        { term: "MOA vs AOA - key differences", ref: "comparison", body: "MOA = charter/fundamental conditions, defines scope (acts beyond it are VOID, unratifiable). AOA = internal rules, subordinate to MOA and the Act; acts beyond AOA (but within MOA) CAN be ratified by shareholders." },
+        { term: "Alteration of Memorandum vs Articles", ref: "S.13 / S.14", body: "Both generally need special resolution. Name change needs Central Govt/ROC approval (Form INC-24). Registered office change between states needs Regional Director approval; change of objects after raising public money needs special resolution via postal ballot + newspaper advertisement + dissenting shareholder exit option." },
+        { term: "Provision for Entrenchment", ref: "S.5(3)-(5)", body: "Makes specific AOA provisions harder to alter than via ordinary special resolution. Can only be inserted at formation, OR later by ALL members' agreement (private co.) or special resolution (public co.). Notice to Registrar required." },
+        { term: "Subsidiary cannot hold shares in holding company", ref: "S.19", body: "Void if attempted. Exceptions: subsidiary acting as legal representative of deceased member, subsidiary holding as TRUSTEE, or subsidiary already held shares before becoming a subsidiary (no voting rights in that case)." },
+        { term: "Registered office requirements", ref: "S.12", body: "Must have one within 30 days of incorporation; verify with Registrar within 30 days. Name/CIN/address must be displayed on signboard, letterheads, seal. Change within same city = Board Resolution; different city same state = Special Resolution + ROC notice; different state = Special Resolution + Central Govt/Regional Director approval + fresh Certificate of Incorporation." }
+      ],
+      caseLaws: [
+        { case: "Ashbury Railway Carriage and Iron Co. Ltd. v. Riche", point: "Foundational ultra vires case - contract outside objects clause is void even if all shareholders ratify it." },
+        { case: "Ernest v Nicholls", point: "Established Doctrine of Constructive Notice - persons dealing with a company are deemed to know its public documents." },
+        { case: "Royal British Bank v. Turquand", point: "Established Doctrine of Indoor Management - outsiders can presume internal company procedures were properly followed." },
+        { case: "Kotla Venkataswamy v. Chinta Ramamurthy", point: "Applied Constructive Notice: payee had no claim when a cheque requiring two signatures (per AOA) was signed by only one director." },
+        { case: "Borland's Trustee v Steel Bros & Co Ltd", point: "AOA binds members to the company - share transfer restriction clauses are enforceable even against a bankrupt shareholder's trustee." },
+        { case: "Browne v La Trinidad", point: "AOA does NOT bind the company to outsiders, even if a clause purports to give them rights (e.g. a named director)." },
+        { case: "Rayfield v Hands", point: "AOA binds members to each other - directors (who were also members) were compelled to buy a member's shares per the articles." }
+      ],
+      numericalPatterns: [
+        { name: "CIN decoding", howTo: "Break a given 21-character CIN into its 6 components (listing status, industry code, state, year, classification, ROC number) - a quick, low-effort MCQ pattern." },
+        { name: "Severally liable members - debt timeline", howTo: "Identify the date membership fell below threshold, add 6 months, then any debt contracted AFTER that date makes the continuing members severally (not just jointly) liable." }
+      ],
+      notes: "Two of the most-cited doctrine pairs in this paper: Ultra Vires (limits company's own power) vs Constructive Notice + Indoor Management (govern outsider's rights against the company). Exam loves testing the EXCEPTIONS to Indoor Management specifically - know all 4 (knowledge of irregularity, negligence, forgery, ultra vires the company itself) since that's where nuance/marks live."
+    }
+  }
+];
           },
           {
                   id: "p3",
