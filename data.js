@@ -1,3 +1,4 @@
+```javascript
 const TRACKER_DATA = {
   "meta": {
     "startDate": "2026-06-22",
@@ -1302,6 +1303,1003 @@ const TRACKER_DATA = {
             ],
             "notes": "This is the capstone unit tying together every other Taxation chapter into one final computation. The regime-switching rule for business-income assessees (one-time switch-back only) is a frequently tested conceptual trap distinct from the no-business-income assessee's full annual flexibility."
           }
+        },
+        {
+          "id": "p3-gst1",
+          "name": "GST in India - An Introduction",
+          "weightage": "Low",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Direct vs Indirect tax",
+                "ref": "concept",
+                "body": "Direct tax: cannot be shifted, borne by the person on whom it's imposed (e.g. income tax). Indirect tax: shifted to ultimate consumer, regressive in nature (e.g. GST)."
+              },
+              {
+                "term": "GST commencement",
+                "ref": "concept",
+                "body": "Introduced 1 July 2017, replacing excise duty, service tax, VAT, CST, entry tax, purchase tax, entertainment tax, luxury tax, etc. Customs duty continues outside GST."
+              },
+              {
+                "term": "101st Constitutional Amendment Act 2016",
+                "ref": "concept",
+                "body": "Enabled GST by inserting Article 246A (concurrent power to Centre+States to levy GST), amending Article 269A (IGST on inter-state supply), and Article 279A (GST Council)."
+              },
+              {
+                "term": "GST Council - Article 279A",
+                "ref": "concept",
+                "body": "Chaired by Union Finance Minister; members include Union MoS Finance + State Finance Ministers. Decisions by 3/4 majority of weighted votes (Centre 1/3 weight, States 2/3 weight collectively)."
+              },
+              {
+                "term": "Dual GST structure",
+                "ref": "concept",
+                "body": "CGST + SGST/UTGST on intra-state supply; IGST (=CGST+SGST combined rate) on inter-state supply. GST Compensation Cess levied separately on specified luxury/sin goods."
+              },
+              {
+                "term": "Taxes subsumed into GST",
+                "ref": "list",
+                "body": "Central: Central Excise Duty, Service Tax, CVD, SAD, Central Sales Tax. State: VAT, Entry Tax, Octroi, Purchase Tax, Luxury Tax, Entertainment Tax, Betting/Gambling Tax."
+              },
+              {
+                "term": "GST not levied on",
+                "ref": "concept",
+                "body": "Alcoholic liquor for human consumption (state excise applies instead); Petroleum crude, high speed diesel, motor spirit, natural gas, ATF currently outside GST (constitutionally includible but not yet notified)."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [],
+            "notes": "Purely conceptual/historical chapter, lowest exam weightage of the GST module - mostly background and constitutional context. Quick read, few if any numericals."
+          }
+        },
+        {
+          "id": "p3-gst2",
+          "name": "Supply under GST",
+          "weightage": "High",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Supply - 3 core parameters",
+                "ref": "S.7(1)(a)",
+                "body": "Must be (1) of goods or services, (2) for a consideration, (3) in the course or furtherance of business. Forms: sale, transfer, barter, exchange, license, rental, lease, disposal (illustrative, not exhaustive)."
+              },
+              {
+                "term": "Exception - import of services",
+                "ref": "S.7(1)(b)",
+                "body": "Import of services for consideration is supply EVEN IF not in course/furtherance of business - the only exception to the business-purpose requirement."
+              },
+              {
+                "term": "Schedule I - deemed supply without consideration",
+                "ref": "S.7(1)(c)",
+                "body": "4 cases: (1) Permanent transfer/disposal of business assets where ITC availed, (2) Supply between related/distinct persons in course of business (gifts to employee up to Rs.50,000/year excluded), (3) Principal-Agent goods supply, (4) Import of services from related person/foreign establishment in course of business."
+              },
+              {
+                "term": "Related persons vs Distinct persons",
+                "ref": "concept",
+                "body": "Related persons: officers/directors of each other, legal partners, employer-employee, >=25% common ownership, one controls other, family members, sole agent/distributor. Distinct persons: separate GST registrations of the same PAN entity (same or different states)."
+              },
+              {
+                "term": "Principal-Agent test (Schedule I Para 3)",
+                "ref": "concept",
+                "body": "Key test: WHO issues the invoice to the end customer. If agent invoices in own name = covered as agent (Para 3 applies). If principal invoices directly = agent merely facilitates, not covered."
+              },
+              {
+                "term": "Schedule III - non-supplies (negative list)",
+                "ref": "S.7(2)",
+                "body": "Employee services to employer in course of employment; services by court/tribunal; functions of MPs/MLAs/Panchayat members; funeral/burial services; sale of land and (subject to completion-certificate rule) sale of building; actionable claims other than betting/casinos/gambling/horse racing/lottery/online money gaming."
+              },
+              {
+                "term": "Schedule II - goods vs services classification",
+                "ref": "S.7(1A)",
+                "body": "Transfer of title = goods. Transfer of right to use without title (lease/rental) = services. Land/building lease, IP temporary transfer, software development, works contract, restaurant service (food+service) = all services."
+              },
+              {
+                "term": "Composite Supply",
+                "ref": "S.2(30)",
+                "body": "2+ supplies naturally bundled in ordinary course of business, one being principal supply. Taxed at the rate of the PRINCIPAL supply. E.g. hotel stay + breakfast (hotel accommodation is principal)."
+              },
+              {
+                "term": "Mixed Supply",
+                "ref": "S.2(74)",
+                "body": "2+ independent supplies bundled for a single price, NOT naturally bundled (can be sold separately). Taxed at the HIGHEST rate among all items in the bundle. E.g. gift hamper of unrelated items."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "Composite vs Mixed supply classification + rate application",
+                "howTo": "First test if items are naturally bundled (would a reasonable customer expect them together, can they be sold separately) - if yes, composite, tax at principal supply's rate; if no, mixed, tax at the highest rate among all components."
+              }
+            ],
+            "notes": "Foundational chapter for the entire GST paper - the Schedule I/II/III three-way classification (deemed supply / goods-vs-services / non-supply) is the most frequently tested conceptual framework. The composite vs mixed supply distinction recurs in numericals across many later chapters."
+          }
+        },
+        {
+          "id": "p3-gst3",
+          "name": "Charge of GST",
+          "weightage": "High",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Intra-State vs Inter-State supply",
+                "ref": "concept",
+                "body": "Intra-state: supplier location and place of supply in SAME state/UT -> CGST+SGST/UTGST. Inter-state: supplier and place of supply in DIFFERENT states/UTs (or one is SEZ) -> IGST."
+              },
+              {
+                "term": "Forward charge vs Reverse charge",
+                "ref": "S.9(1)/(3)/(4)",
+                "body": "Forward charge (default): supplier pays tax. Reverse charge S.9(3): notified goods/services where RECIPIENT pays tax regardless of supplier's registration status. S.9(4): recipient (specified class) pays tax on supplies from UNREGISTERED suppliers of notified categories."
+              },
+              {
+                "term": "Common S.9(3) reverse charge categories",
+                "ref": "list",
+                "body": "GTA services (if GTA hasn't opted to pay forward), legal services by advocate/firm to business entity, services by arbitral tribunal, sponsorship services, services by director to company, services by insurance agent, recovery agent services to banks/NBFCs."
+              },
+              {
+                "term": "Composition Levy eligibility (goods)",
+                "ref": "S.10",
+                "body": "Aggregate turnover in preceding FY <= Rs.1.5 crore (Rs.75 lakh for specified special category states) for goods suppliers. Cannot supply ice cream, pan masala, tobacco; cannot make inter-state outward supply; cannot supply through ECO required to collect TCS (with some relaxation); cannot supply non-taxable goods."
+              },
+              {
+                "term": "Composition rates",
+                "ref": "formula",
+                "body": "Manufacturers/traders: 1% of turnover (0.5% CGST + 0.5% SGST). Restaurant service (not serving alcohol): 5% of turnover. Other service providers (S.10(2A) scheme, turnover<=Rs.50 lakh): 6% of turnover."
+              },
+              {
+                "term": "Composition scheme - key restrictions",
+                "ref": "concept",
+                "body": "Cannot collect tax from recipient (issues bill of supply, not tax invoice). Cannot avail ITC. Must mention 'composition taxable person, not eligible to collect tax' on bill of supply. All registrations under same PAN must opt in/out together."
+              },
+              {
+                "term": "CGST Act extent",
+                "ref": "S.1",
+                "body": "Extends to whole of India (including J&K after 2019 reorganisation); commenced from notified dates section-wise."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "Composition scheme eligibility + tax computation",
+                "howTo": "First check turnover threshold (Rs.1.5Cr / Rs.75L) AND check exclusion list (ice cream/pan masala/tobacco/inter-state supply) before computing tax; tax = aggregate turnover in the State x applicable composition rate (not on value of taxable supply alone)."
+              },
+              {
+                "name": "Identifying reverse charge applicability from a transaction description",
+                "howTo": "Check: (1) is the good/service on the notified S.9(3) list, (2) if not on the list, is the supplier unregistered and recipient a notified S.9(4) category - if either condition is met, shift the liability to the recipient."
+              }
+            ],
+            "notes": "The composition scheme numbers (1%/5%/6% rates, Rs.1.5Cr/Rs.75L/Rs.50L thresholds) are classic high-frequency recall points. Reverse charge category recall (which services fall under S.9(3)) is the other major MCQ source from this chapter."
+          }
+        },
+        {
+          "id": "p3-gst4",
+          "name": "Place of Supply",
+          "weightage": "Medium",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Place of supply - goods, general rule",
+                "ref": "S.10 IGST Act",
+                "body": "Where movement involved: location where movement terminates for delivery to recipient. No movement involved: location of goods at time of delivery (e.g. sale of goods at the premises itself)."
+              },
+              {
+                "term": "Place of supply - goods, Bill-to-Ship-to model",
+                "ref": "S.10(1)(b)",
+                "body": "Where goods delivered to a third party on instruction of the buyer (before/during movement, by transfer of title documents): place of supply = principal place of business of the person who gave the instruction (the buyer/B in A-B-C chain), NOT the actual delivery location."
+              },
+              {
+                "term": "Place of supply - services, general rule (B2B/B2C)",
+                "ref": "S.12 IGST Act",
+                "body": "B2B (registered recipient): location of the recipient. B2C (unregistered recipient): location of recipient if address on record exists, else location of supplier."
+              },
+              {
+                "term": "Place of supply - immovable property related services",
+                "ref": "S.12(3)",
+                "body": "Services directly related to immovable property (architect, lodging, accommodation, construction): location of the immovable property itself, regardless of supplier/recipient location."
+              },
+              {
+                "term": "Place of supply - restaurant/catering/personal grooming/health/beauty",
+                "ref": "S.12(4)",
+                "body": "Location where the service is actually performed (not location of recipient or supplier)."
+              },
+              {
+                "term": "Place of supply - training/performance appraisal",
+                "ref": "S.12(5)",
+                "body": "B2B: location of recipient. B2C: location where service is actually performed."
+              },
+              {
+                "term": "Place of supply - transportation of goods",
+                "ref": "S.12(8)",
+                "body": "B2B: location of registered recipient. B2C: location where goods are handed over for transportation."
+              },
+              {
+                "term": "Place of supply - online services/OIDAR",
+                "ref": "concept",
+                "body": "OIDAR services to unregistered person in India: place of supply = location of recipient in India - ensures GST captured on imported digital services consumed domestically."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "Classifying a transaction as intra-state vs inter-state from given facts",
+                "howTo": "Determine place of supply using the relevant specific rule for the supply type (immovable property/event/transport/general), then compare to supplier's location - same state/UT = intra-state (CGST+SGST), different = inter-state (IGST)."
+              }
+            ],
+            "notes": "The category-specific place-of-supply rules (immovable property, restaurant/personal services = location of performance; general B2B = location of recipient) are the recurring exam pattern - always identify which specific category a service falls into before defaulting to the general rule."
+          }
+        },
+        {
+          "id": "p3-gst5",
+          "name": "Exemptions from GST",
+          "weightage": "Medium",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Power to grant exemption",
+                "ref": "S.11",
+                "body": "Government, on GST Council recommendation, can exempt goods/services generally (by notification) or in specific cases (by special order, recording reasons). Exemption is mandatory once granted - taxpayer cannot opt to pay tax on an exempt supply."
+              },
+              {
+                "term": "Key exempt services categories",
+                "ref": "list",
+                "body": "Healthcare services by clinical establishments/doctors (except cosmetic surgery generally); education services by recognized educational institutions; services by RBI, foreign diplomatic missions; agricultural support services (cultivation, harvesting, warehousing of agri produce); transport of passengers by non-AC contract/stage carriage, metro, or auto-rickshaw."
+              },
+              {
+                "term": "Exempt vs Nil-rated vs Non-taxable vs Zero-rated",
+                "ref": "concept",
+                "body": "Exempt: notified exemption under S.11, no ITC reversal-free benefit. Nil-rated: 0% rate in tariff itself. Non-taxable: outside GST scope entirely (e.g. alcohol). Zero-rated (exports/SEZ supply): taxable at 0% but ITC IS available/refundable - distinct from exempt."
+              },
+              {
+                "term": "Renting of residential dwelling exemption",
+                "ref": "concept",
+                "body": "Exempt when rented for use AS RESIDENCE to an unregistered person. If rented to a registered person/business entity (even if used as residence by an employee), taxable under reverse charge in certain configurations."
+              },
+              {
+                "term": "Charitable/religious activity exemption",
+                "ref": "concept",
+                "body": "Services by entity registered u/s 12AA/12AB of Income-tax Act by way of charitable activities (relief of poor, advancement of religion/spirituality, preservation of environment) - exempt. Renting of precincts of religious place also generally exempt subject to monetary limits on room/hall rent."
+              },
+              {
+                "term": "GTA (Goods Transport Agency) exemptions",
+                "ref": "concept",
+                "body": "Transport of agricultural produce, milk, salt, food grains, organic manure, relief materials, defence/military equipment, newspapers/magazines via GTA - exempt regardless of consignment value. Other GTA services exempt only if single carriage consignment value <=Rs.1,500 or single consignee's goods <=Rs.750."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "Identifying exempt vs taxable supply from a list of services/goods",
+                "howTo": "Cross-check the specific activity against the notified exemption entry's exact wording (e.g. 'healthcare services' excludes hair transplant/cosmetic surgery specifically) - exemption notifications are narrowly worded, so partial matches don't qualify."
+              }
+            ],
+            "notes": "This is a long list-based, recall-heavy chapter (large exemption notification with ~80+ entries) rather than formula-driven. Focus on the most commonly tested categories: healthcare, education, GTA thresholds, and the exempt-vs-zero-rated distinction, since memorizing the entire notification is impractical."
+          }
+        },
+        {
+          "id": "p3-gst6",
+          "name": "Time of Supply",
+          "weightage": "Medium",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Time of supply of GOODS - forward charge",
+                "ref": "S.12(2)",
+                "body": "Earlier of: (a) date of invoice (or last date invoice ought to have been issued), or (b) date of payment receipt. SPECIAL RULE: per Notification 66/2017, GST on goods is payable ONLY on invoice date - no GST on advance receipt for goods (except composition suppliers)."
+              },
+              {
+                "term": "Time of supply of GOODS - reverse charge",
+                "ref": "S.12(3)",
+                "body": "Earliest of: (a) date goods received, (b) date payment recorded/debited, (c) day immediately after 30 days from supplier's invoice date. If undeterminable: date of entry in recipient's books."
+              },
+              {
+                "term": "Time of supply of SERVICES - forward charge",
+                "ref": "S.13(2)",
+                "body": "If invoice issued WITHIN prescribed time (30/45 days): earlier of invoice date or payment date. If invoice NOT issued in time: earlier of date of provision of service or payment date. (Unlike goods, advance payment for services DOES trigger GST liability.)"
+              },
+              {
+                "term": "Time of supply of SERVICES - reverse charge",
+                "ref": "S.13(3)",
+                "body": "Earlier of: (a) date of payment, or (b) day after 61 days from supplier's invoice (60-day window +1). Special: import from associated enterprise outside India = earlier of payment date or date of entry in recipient's books."
+              },
+              {
+                "term": "Time of supply - vouchers",
+                "ref": "S.12(4)/13(4)",
+                "body": "If supply identifiable at issue (e.g. shirt voucher): date of ISSUE. If not identifiable (e.g. multi-category gift voucher): date of REDEMPTION. (Note: Finance Act 2025 proposes omitting these voucher provisions - check ICAI announcement for exam applicability.)"
+              },
+              {
+                "term": "Time of supply - residual cases",
+                "ref": "S.12(5)/13(5)",
+                "body": "If undeterminable by above rules: due date of periodical return filing, or (if no periodic return) date tax is actually paid."
+              },
+              {
+                "term": "Time of supply - interest/late fee/penalty addition",
+                "ref": "S.12(6)/13(6)",
+                "body": "Time of supply for any ADDITION to value via interest/late fee/penalty for delayed payment = date supplier actually RECEIVES that additional amount (separate from the time of supply of the main transaction)."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "Determining time of supply from a sequence of dates",
+                "howTo": "List all relevant dates (invoice, payment recorded, payment credited/debited, goods received/delivered); apply the earliest/earliest-of-N rule per the specific clause (goods forward/reverse, services forward/reverse) - always check whether goods or services first, since the rules genuinely differ."
+              }
+            ],
+            "notes": "The single most important asymmetry to remember: GST on ADVANCE for GOODS is not payable (only on invoice), but GST on ADVANCE for SERVICES IS payable immediately. This trips up nearly every student initially and is a favorite exam trap."
+          }
+        },
+        {
+          "id": "p3-gst7",
+          "name": "Value of Supply",
+          "weightage": "Medium",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Transaction value - basic rule",
+                "ref": "S.15(1)",
+                "body": "Value = price actually paid/payable, applicable ONLY when (a) supplier and recipient are UNRELATED, and (b) price is the SOLE consideration."
+              },
+              {
+                "term": "Inclusions in value",
+                "ref": "S.15(2)",
+                "body": "(a) Other taxes/duties/cess (not GST itself) if charged separately, (b) third-party payments the supplier was liable for but recipient paid, (c) incidental expenses (commission, packing, pre-delivery costs), (d) interest/late fee/penalty for delayed payment, (e) non-government subsidies directly linked to price."
+              },
+              {
+                "term": "Exclusion of discounts from value",
+                "ref": "S.15(3)",
+                "body": "Discount EXCLUDED if: (a) given before/at time of supply AND recorded in invoice, OR (b) given post-supply per a pre-existing agreement linked to specific invoices AND recipient reverses proportionate ITC. Secondary discounts (not known/agreed at time of supply) are NOT excludible."
+              },
+              {
+                "term": "Related person valuation",
+                "ref": "S.15(4)/(5)",
+                "body": "When parties are related, or price isn't sole consideration, or for notified supplies: value determined per CGST Valuation Rules (open market value, or value of like-kind goods, or cost+10%, or residual method) - not simple transaction value."
+              },
+              {
+                "term": "Subsidy treatment",
+                "ref": "formula",
+                "body": "Government subsidy (Central/State): NEVER included in value, regardless of link to price. Non-government subsidy directly linked to price: INCLUDED in value of supply made by the recipient of the subsidy."
+              },
+              {
+                "term": "TCS under Income-tax Act - not includible",
+                "ref": "concept",
+                "body": "TCS collected under Income-tax Act provisions is an interim levy without character of 'tax' - NOT includible in GST value of supply, per CBIC clarification."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "Building up value of taxable supply from itemized particulars",
+                "howTo": "Start with base price; ADD: other taxes (non-GST), third-party payments supplier was liable for, incidental/packing/inspection charges, non-govt subsidies, interest for delay; SUBTRACT: only discounts meeting both S.15(3) conditions (recorded in invoice OR linked agreement + ITC reversed)."
+              },
+              {
+                "name": "Distinguishing financial/commercial credit notes from GST credit notes",
+                "howTo": "If discount conditions aren't met (no pre-existing agreement, or recipient won't reverse ITC), supplier can still issue a 'commercial/financial credit note' for the discount amount WITHOUT any GST component - this doesn't reduce the supplier's GST liability."
+              }
+            ],
+            "notes": "The discount-exclusion test (2 conditions, both must be satisfied for post-supply discounts) is the highest-yield numerical pattern here. Always build the value computation as an itemized table (inclusions then exclusions) rather than a single formula, since ICAI illustrations are structured that way."
+          }
+        },
+        {
+          "id": "p3-gst8",
+          "name": "Input Tax Credit",
+          "weightage": "High",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "4 mandatory conditions for claiming ITC",
+                "ref": "S.16(2)",
+                "body": "(a) Possession of tax invoice/debit note, (aa) supplier has reported it in GSTR-1 AND it's reflected in recipient's GSTR-2B, (b) goods/services actually received, (c) tax actually paid to government by supplier, (d) recipient has filed their own GSTR-3B return. ALL four must be satisfied."
+              },
+              {
+                "term": "180-day payment rule",
+                "ref": "S.16(2) 2nd proviso",
+                "body": "If recipient doesn't pay supplier (value+tax) within 180 days of invoice, ITC availed must be reversed with interest, in the GSTR-3B for the period right after the 180-day mark. Can be re-availed once payment is made later. Exceptions: reverse charge supplies, Schedule I deemed supplies."
+              },
+              {
+                "term": "Time limit to avail ITC",
+                "ref": "S.16(4)",
+                "body": "Earlier of: 30th November following end of FY to which invoice/debit note pertains, OR date of filing annual return for that FY. For debit notes, the RELEVANT FY is the year the debit note itself was issued, not the original invoice's year."
+              },
+              {
+                "term": "Goods received in lots/instalments",
+                "ref": "1st proviso to S.16(2)",
+                "body": "ITC can be claimed only upon receipt of the LAST lot/instalment, even if full invoice value was paid earlier."
+              },
+              {
+                "term": "Apportionment of ITC - taxable vs exempt use",
+                "ref": "S.17(1)/(2)",
+                "body": "Full ITC for inputs/services EXCLUSIVELY for taxable+zero-rated supply. ZERO ITC for inputs/services exclusively for exempt supply. PROPORTIONATE ITC (by turnover ratio) for common-use inputs/services."
+              },
+              {
+                "term": "Blocked credits - S.17(5) key categories",
+                "ref": "list",
+                "body": "Motor vehicles (seating<=13) unless used for further supply/passenger transport/driving training; vessels/aircraft similarly restricted; food/beverages/outdoor catering/beauty/health/cosmetic surgery/life&health insurance (unless same-category onward supply or statutory employer obligation); membership of club/health centre; works contract for immovable property (except plant&machinery or sub-contracting); goods/services for self-construction of immovable property (except P&M); composition-levy tax paid goods; goods lost/stolen/destroyed/written-off/given as gifts/free samples; CSR expenditure."
+              },
+              {
+                "term": "Depreciation vs ITC - mutually exclusive",
+                "ref": "S.16(3)",
+                "body": "If depreciation is claimed on the TAX COMPONENT of capital goods/P&M cost under Income-tax Act, ITC on that tax component is DISALLOWED. Cannot claim both benefits on the same tax amount."
+              },
+              {
+                "term": "ITC in special circumstances (S.18)",
+                "ref": "concept",
+                "body": "New registration/voluntary registration: ITC allowed on stock held the day before becoming liable/registered. Switching FROM composition TO regular: ITC allowed on stock+capital goods (capital goods ITC reduced 5%/quarter from invoice date). Switching TO composition or exempt-supply: must REVERSE ITC on stock+capital goods held."
+              },
+              {
+                "term": "ITC utilization order (S.49/49A/49B)",
+                "ref": "formula",
+                "body": "IGST credit MUST be fully exhausted FIRST (against IGST, then CGST/SGST in any order/proportion) before any CGST or SGST credit can be used. CGST credit -> CGST then IGST (never SGST). SGST credit -> SGST then IGST, but only after CGST credit is fully exhausted first."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "Eligible ITC computation excluding blocked credits",
+                "howTo": "List every inward supply with GST paid; check each against the S.17(5) blocked list individually (don't blanket-disallow); sum only the eligible amounts; separately check the 4 conditions of S.16(2) (especially GSTR-2B reflection) before finalizing the eligible figure."
+              },
+              {
+                "name": "ITC utilization sequencing across IGST/CGST/SGST",
+                "howTo": "Always exhaust IGST credit completely first (split between CGST and SGST output liability in any chosen proportion), THEN use CGST credit against remaining CGST output (then IGST if any left), THEN SGST credit against SGST output (then IGST, only after CGST credit fully used) - never let CGST credit touch SGST liability or vice versa."
+              },
+              {
+                "name": "ITC reversal on switch to composition/exempt supply",
+                "howTo": "Compute ITC on stock (proportional to invoices) + capital goods (pro-rata over 5-year useful life, expressed in remaining months/60) as on the day immediately preceding the switch date; this amount becomes payable as output tax liability."
+              }
+            ],
+            "notes": "Highest-weightage, most numerically dense GST chapter. The blocked-credit list (S.17(5)) and the 4-condition eligibility test (S.16(2)) are the two pillars every ITC question builds on - drill these two lists until they're automatic, since nearly every ITC numerical is really just careful application of these two checklists."
+          }
+        },
+        {
+          "id": "p3-gst9",
+          "name": "Registration",
+          "weightage": "High",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Aggregate turnover - definition",
+                "ref": "S.2(6)",
+                "body": "Value of ALL taxable supplies + exempt supplies + exports + inter-state supplies of same-PAN persons, computed PAN-wide (all states combined). EXCLUDES GST/cess and value of inward RCM supplies. INCLUDES outward RCM supplies."
+              },
+              {
+                "term": "Threshold limits for registration",
+                "ref": "S.22(1)",
+                "body": "Goods-only suppliers: Rs.40 lakh (most states), Rs.20 lakh (Arunachal/Meghalaya/Sikkim/Uttarakhand/Puducherry/Telangana), Rs.10 lakh (Mizoram/Tripura/Manipur/Nagaland). Services or mixed goods+services: Rs.20 lakh (most states), Rs.10 lakh (the 4 special category states)."
+              },
+              {
+                "term": "Compulsory registration regardless of turnover",
+                "ref": "S.24",
+                "body": "Inter-state taxable supply of goods (services get threshold relief up to Rs.20L/10L); casual taxable persons; persons liable under reverse charge; non-resident taxable persons; e-commerce operators required to collect TCS; persons making supply through ECO (with some threshold relief for services); persons required to deduct TDS; agents making taxable supply on behalf of others; Input Service Distributor."
+              },
+              {
+                "term": "Persons NOT liable for registration",
+                "ref": "S.23",
+                "body": "Persons exclusively supplying wholly-exempt or non-taxable goods/services; agriculturist (individual/HUF) for produce out of own land cultivation only. Plus notified exemptions: persons making ONLY reverse-charge-taxable supplies, inter-state service suppliers <=Rs.20L, certain handicraft-goods inter-state suppliers <=Rs.20L."
+              },
+              {
+                "term": "PAN-based, State-wise registration",
+                "ref": "concept",
+                "body": "Registration is PAN-based; separate registration required per State/UT from which TAXABLE supply is made (not where supply is received). Within a state, single registration covers multiple places of business (PPoB+APoB) unless separate registration opted for each."
+              },
+              {
+                "term": "Time limit & effective date of registration",
+                "ref": "Rule 10",
+                "body": "Apply within 30 days of becoming liable (CTP/NRTP: at least 5 days before commencing business). If applied within 30 days: effective date = date liability arose. If applied LATE: effective date = date registration actually granted."
+              },
+              {
+                "term": "Aadhaar authentication requirement",
+                "ref": "S.25(6A)-(6D)",
+                "body": "Mandatory for new registrants (individual or specified persons for non-individual entities). Successful authentication -> deemed approval within 7 working days if no SCN issued. Failed/skipped authentication -> mandatory physical site verification, approval within 30 days."
+              },
+              {
+                "term": "Casual Taxable Person & Non-Resident Taxable Person",
+                "ref": "S.27",
+                "body": "CTP: occasional supply from a State where no fixed place of business exists. NRTP: no fixed place of business/residence in India at all. Both must register at least 5 days before commencing business, make ADVANCE TAX DEPOSIT, valid for period applied for or 90 days (extendable by another 90 days), whichever earlier."
+              },
+              {
+                "term": "Cancellation & Revocation",
+                "ref": "S.29/30",
+                "body": "Cancellation triggers: business discontinued/transferred, change in constitution causing new PAN, no longer liable, composition return not filed for 3 months beyond due date, regular filer hasn't filed for 6 continuous months (monthly) or 2 tax periods (QRMP), fraud. Revocation: apply within 90 days of cancellation order (extendable to 180 days), only for officer-initiated (suo-motu) cancellations, not self-requested ones."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "Determining liability to register from turnover + supply-type facts",
+                "howTo": "Identify which threshold applies (goods-only Rs.40L/20L/10L vs services/mixed Rs.20L/10L based on the specific state); then separately check if ANY S.24 compulsory-registration trigger applies (inter-state goods, reverse charge, e-commerce) which would override the threshold entirely."
+              },
+              {
+                "name": "Effective date of registration determination",
+                "howTo": "Find the date the person became liable to register (when turnover crossed threshold, or trigger event for S.24 cases); compare to actual application date - within 30 days means effective date = liability date; beyond 30 days means effective date = grant date."
+              }
+            ],
+            "notes": "The state-by-state threshold table (Rs.40L/20L/10L for goods, Rs.20L/10L for services) is dense recall material - build a simple 2x2 mental grid (goods vs services, special-category vs other) rather than memorizing every state individually. S.24's compulsory list overrides thresholds entirely and is the more frequently tested concept."
+          }
+        },
+        {
+          "id": "p3-gst10",
+          "name": "Tax Invoice, Credit and Debit Notes",
+          "weightage": "Medium",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Time limit for tax invoice - goods",
+                "ref": "S.31(1)",
+                "body": "Before or at the time of removal (where movement involved) or delivery/making available (no movement)."
+              },
+              {
+                "term": "Time limit for tax invoice - services",
+                "ref": "S.31(2) + Rule 47",
+                "body": "Within 30 days of supply of service (45 days for insurer/bank/financial institution/NBFC)."
+              },
+              {
+                "term": "Bill of Supply",
+                "ref": "S.31(3)(c)",
+                "body": "Issued instead of tax invoice by: composition scheme suppliers, and suppliers of exempted goods/services. No tax amount shown since none is collected."
+              },
+              {
+                "term": "Receipt Voucher & Refund Voucher",
+                "ref": "S.31(3)(d)/(e)",
+                "body": "Receipt voucher: issued on receipt of advance payment (relevant mainly for services, since goods don't attract GST on advance). Refund voucher: issued if advance was received (receipt voucher issued) but supply never happens and no tax invoice follows."
+              },
+              {
+                "term": "E-invoicing applicability",
+                "ref": "Rule 48(4)",
+                "body": "Mandatory for registered persons with aggregate turnover >Rs.5 crore in any FY from 2017-18 onward, for B2B supplies and exports. NOT applicable to B2C, SEZ units, insurers/banks/NBFCs, GTA, passenger transport, cinema exhibition services, Govt departments, local authorities, or Input Service Distributors."
+              },
+              {
+                "term": "Credit Note",
+                "ref": "S.34(1)/(2)",
+                "body": "Issued when invoiced taxable value/tax EXCEEDS actual, or goods returned, or goods/services found deficient. Must be declared by EARLIER of: 30th November following end of FY of original supply, or date of filing annual return. Reduces supplier's output tax liability (unless incidence already passed to another person)."
+              },
+              {
+                "term": "Debit Note",
+                "ref": "S.34(3)/(4)",
+                "body": "Issued when invoiced taxable value/tax is LESS than actual (undercharged). Treated like a regular invoice for return/payment purposes - increases supplier's output tax liability. No specific time-limit restriction like credit notes have."
+              },
+              {
+                "term": "Secondary discounts - no credit note for GST reduction",
+                "ref": "concept",
+                "body": "Discounts NOT known/agreed at time of supply (offered later, unilaterally) cannot be passed via a GST credit note reducing tax liability - only a financial/commercial credit note (without GST) can be issued for such cases."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "Identifying which document to issue from a transaction scenario",
+                "howTo": "Map the fact pattern to the document type systematically: composition/exempt supplier -> Bill of Supply; advance received for service -> Receipt Voucher; advance received then supply cancelled -> Refund Voucher; value/tax overcharged or goods returned -> Credit Note; value/tax undercharged -> Debit Note."
+              }
+            ],
+            "notes": "Mostly a documentation/procedural chapter - good for quick recall-based marks. The credit note's strict November-30/annual-return deadline (vs the debit note having no such deadline) is a frequently tested asymmetry."
+          }
+        },
+        {
+          "id": "p3-gst11",
+          "name": "Accounts and Records",
+          "weightage": "Low",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Core records every registered person maintains",
+                "ref": "S.35(1)",
+                "body": "Production/manufacture records, inward+outward supply records, stock of goods, ITC availed, output tax payable+paid, plus prescribed additional particulars (advances, reverse-charge supplies, supplier/recipient names+addresses)."
+              },
+              {
+                "term": "Place of maintenance",
+                "ref": "concept",
+                "body": "At the Principal Place of Business as per registration certificate. If multiple places of business registered, records for each kept at that specific place."
+              },
+              {
+                "term": "Period of retention",
+                "ref": "S.36",
+                "body": "72 months (6 years) from the due date of filing the annual return for the year the records pertain to. EXTENDED if under appeal/revision/investigation: 1 year after final disposal, OR the standard 72-month period, WHICHEVER IS LATER."
+              },
+              {
+                "term": "Additional records by specific persons",
+                "ref": "concept",
+                "body": "Manufacturer: monthly production accounts (raw material used + finished goods + waste/by-products). Service provider: goods used in service provision + input services utilized. Works contractor: separate accounts per contract (parties, goods/services received & used, payments). Agent: authorization details, goods received/supplied per principal, accounts furnished to each principal."
+              },
+              {
+                "term": "Owner/operator of warehouse & transporter obligations",
+                "ref": "S.35(2)",
+                "body": "MUST maintain records of consignor/consignee details EVEN IF NOT REGISTERED under GST - obtain a unique enrolment number (Form GST ENR-01) if unregistered, rather than a regular GSTIN."
+              },
+              {
+                "term": "Electronic record-keeping rules",
+                "ref": "concept",
+                "body": "Permitted in electronic form (authenticated by digital signature); must keep proper backup; must produce records on demand in hard copy or readable electronic format, including file passwords/access codes if asked."
+              },
+              {
+                "term": "Consequence of failure to maintain accounts",
+                "ref": "S.35(6)",
+                "body": "Proper officer can determine tax payable on unaccounted goods/services AS IF they had been supplied by that person - shifts burden of proof effectively onto the taxpayer."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [],
+            "notes": "Lowest-weightage, purely conceptual chapter - mostly 'who maintains what' recall. The 72-month retention period (extendable for ongoing litigation) is the single most quoted figure from this chapter in MCQs."
+          }
+        },
+        {
+          "id": "p3-gst12",
+          "name": "E-Way Bill",
+          "weightage": "Medium",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "E-Way Bill - purpose & trigger",
+                "ref": "Rule 138",
+                "body": "Required for movement of goods (by registered person, even if to/from unregistered person) where consignment value exceeds Rs.50,000 - either in relation to a supply, or for reasons other than supply (e.g. branch transfer, job work returns), or due to inward supply from unregistered person."
+              },
+              {
+                "term": "Who generates the e-way bill",
+                "ref": "concept",
+                "body": "Registered person causing movement (consignor/consignee), or if neither generates it, the TRANSPORTER must generate it before movement, based on the invoice/bill of supply/delivery challan information."
+              },
+              {
+                "term": "Validity period of e-way bill",
+                "ref": "formula",
+                "body": "1 day per 200 km (or part thereof) for regular cargo; 1 day per 20 km for Over Dimensional Cargo (ODC). Validity counted from the time of generation, can be extended within 8 hours before/after expiry under specific circumstances (transshipment delay, natural calamity, etc.)."
+              },
+              {
+                "term": "Situations where e-way bill is NOT required",
+                "ref": "list",
+                "body": "Non-motorized conveyance; goods transported from port/airport/customs station to ICD/CFS for clearance; specified exempt goods (e.g. LPG for household, kerosene under PDS, jewellery, currency); goods transported under customs bond; transit cargo to/from Nepal/Bhutan; defence formation movements; empty cargo containers."
+              },
+              {
+                "term": "Consolidated E-way Bill",
+                "ref": "Rule 138(8)",
+                "body": "A transporter carrying multiple consignments (each with its own individual e-way bill) in one vehicle can generate ONE consolidated e-way bill indicating serial numbers of all individual e-way bills, instead of carrying each separately."
+              },
+              {
+                "term": "Cancellation of e-way bill",
+                "ref": "concept",
+                "body": "Can be cancelled within 24 hours of generation if goods not actually transported or details are incorrect - cannot be cancelled if already verified in transit by an officer."
+              },
+              {
+                "term": "Blocking of e-way bill generation facility",
+                "ref": "Rule 138E",
+                "body": "E-way bill generation blocked for a GSTIN if returns (GSTR-3B) not filed for 2 consecutive tax periods (regular) or the prescribed default period for composition taxpayers - prevents non-compliant taxpayers from continuing supply chains."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "Validity period computation from distance",
+                "howTo": "Divide total transport distance by 200 (round up any part-distance to a full day) for regular cargo, or by 20 for ODC, starting the count from the e-way bill generation timestamp - not the actual movement start time."
+              }
+            ],
+            "notes": "Procedural/operational chapter with a moderate numerical pattern (validity period calculation). The Rs.50,000 consignment-value threshold and the distance-based validity formula are the two most commonly tested concrete figures."
+          }
+        },
+        {
+          "id": "p3-gst13",
+          "name": "Payment of Tax",
+          "weightage": "Medium",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Three E-Ledgers",
+                "ref": "S.49",
+                "body": "Electronic Cash Ledger: cash deposits made by taxpayer, used to pay tax/interest/penalty/fee. Electronic Credit Ledger: ITC availed, used ONLY for tax payment (not interest/penalty/late fee). Electronic Liability Register: running record of total tax/interest/penalty/other dues, auto-updated from returns."
+              },
+              {
+                "term": "ITC utilization sequence (recap from ITC chapter)",
+                "ref": "S.49A/49B/Rule 88A",
+                "body": "IGST credit must be exhausted FIRST (in any proportion against CGST and SGST output) before CGST or SGST credit is touched. CGST credit cannot pay SGST liability and vice versa - cross-utilization is strictly IGST<->CGST and IGST<->SGST only."
+              },
+              {
+                "term": "Interest on delayed payment of tax",
+                "ref": "S.50",
+                "body": "18% p.a. on tax NOT paid by due date, computed on the NET tax liability (i.e. after deducting eligible ITC) - calculated from the day after the due date until actual payment. If ITC wrongly availed AND utilized (not just availed), interest is 24% p.a. on that wrongly utilized amount."
+              },
+              {
+                "term": "Rule 86A - blocking of fraudulent ITC",
+                "ref": "concept",
+                "body": "Commissioner/authorized officer can disallow debit of electronic credit ledger (block ITC use) where credit is believed fraudulently availed (fake invoices, non-existent supplier, no actual receipt of goods/services) - restriction lasts max 1 year."
+              },
+              {
+                "term": "Rule 86B - 99% cash payment restriction",
+                "ref": "concept",
+                "body": "Where monthly taxable supply value (excl. exempt+zero-rated) exceeds Rs.50 lakh, registered person CANNOT use more than 99% of output tax liability from electronic credit ledger - at least 1% must be paid in cash. Exceptions: persons who paid >Rs.1 lakh income tax in each of last 2 years, received >Rs.1 lakh refund of unutilized ITC (exports/inverted duty), discharged >1% liability via cash cumulatively in current FY, or are Govt/PSU/local authority/statutory body."
+              },
+              {
+                "term": "Order of discharge of tax liability",
+                "ref": "S.49(8)",
+                "body": "Self-assessed tax+other dues for PREVIOUS tax periods must be discharged FIRST, before current period's liability. Within any period: interest and late fee are paid before the tax itself if amounts are insufficient."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "Interest computation on delayed tax payment",
+                "howTo": "Identify net cash tax liability (after ITC offset) for the relevant period, compute number of days from due date to actual payment date, apply 18% p.a. (or 24% for wrongly availed+utilized ITC) pro-rated for those days."
+              },
+              {
+                "name": "Rule 86B cash payment check",
+                "howTo": "First check if monthly taxable turnover (excl. exempt/zero-rated) exceeds Rs.50 lakh; if yes, verify none of the 4 exceptions apply; if no exception applies, ensure at least 1% of output liability is discharged via cash ledger, not entirely from credit ledger."
+              }
+            ],
+            "notes": "The 18%/24% interest rate distinction (mere availing vs availing+utilizing wrongly) is a frequently confused point. Rule 86B's 99%-credit-cap with its 4 specific exceptions is dense but high-yield recall material for MCQs."
+          }
+        },
+        {
+          "id": "p3-gst14",
+          "name": "Tax Deduction at Source and Collection of Tax at Source",
+          "weightage": "Medium",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "TDS under GST - who deducts (S.51)",
+                "ref": "concept",
+                "body": "Government departments/establishments, local authorities, PSUs, and specified persons (notified) deduct TDS when making payment to a supplier under a contract, if the contract value exceeds Rs.2,50,000 (excl. tax)."
+              },
+              {
+                "term": "TDS rate and computation",
+                "ref": "formula",
+                "body": "1% CGST + 1% SGST (or 2% IGST for inter-state) on the payment made to supplier, EXCLUDING the GST component itself from the base on which TDS is computed."
+              },
+              {
+                "term": "TDS deposit & certificate timeline",
+                "ref": "concept",
+                "body": "TDS amount deposited to government within 10 days after the end of the month of deduction. TDS certificate (Form GSTR-7A) made available to deductee within 5 days of crediting the amount to government - late certificate issuance attracts late fee of Rs.100/day (max Rs.5,000)."
+              },
+              {
+                "term": "No TDS deduction situations",
+                "ref": "list",
+                "body": "Where supplier and recipient (deductor) are located in the same state but the PLACE OF SUPPLY is a different state (would create IGST mismatch); supplies between distinct persons (not normally arising in govt-supplier context but excluded if applicable); contract value <=Rs.2,50,000."
+              },
+              {
+                "term": "TCS under GST - who collects (S.52)",
+                "ref": "concept",
+                "body": "Every Electronic Commerce Operator (ECO) who collects consideration on behalf of suppliers selling through its platform must collect TCS, EXCEPT for supplies where the ECO itself is liable to pay tax under S.9(5) (e.g. cab aggregators, accommodation services via unregistered suppliers)."
+              },
+              {
+                "term": "TCS rate",
+                "ref": "formula",
+                "body": "0.5% CGST + 0.5% SGST (or 1% IGST) of the NET VALUE of taxable supplies made through the ECO (gross value of taxable supplies LESS supplies returned during that month, by all suppliers through the operator)."
+              },
+              {
+                "term": "TCS statements & matching",
+                "ref": "concept",
+                "body": "ECO files monthly TCS statement (Form GSTR-8) and annual statement; details auto-reflect in supplier's electronic cash ledger; any mismatch between ECO's reported outward supply value and supplier's own declared value gets communicated to both for reconciliation."
+              },
+              {
+                "term": "Difference between TDS and TCS in GST context",
+                "ref": "comparison",
+                "body": "TDS: deducted by RECIPIENT/payer when paying a SUPPLIER (notified govt/PSU entities only, contract-based). TCS: collected by the E-COMMERCE PLATFORM from amounts it collects on behalf of suppliers selling through it - fundamentally different trigger and deductor identity."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "TDS computation on a government contract payment",
+                "howTo": "Check contract value threshold (>Rs.2,50,000 excl. tax) first; compute TDS as 1%+1% (or 2% IGST) on the payment value EXCLUDING GST; verify the no-TDS exception (same state supplier/deductor but different place of supply) doesn't apply."
+              },
+              {
+                "name": "TCS computation for an e-commerce operator",
+                "howTo": "Aggregate gross value of all taxable supplies made through the platform during the month by all suppliers (excluding S.9(5) categories where ECO itself pays tax); subtract any supplies returned during the same month; apply 0.5%+0.5% (or 1% IGST) to the net figure."
+              }
+            ],
+            "notes": "The TDS/TCS rate pair (1%+1% vs 0.5%+0.5%) and their respective Rs.2,50,000 contract threshold / net-value basis are the most commonly tested concrete numbers. Keep the TDS deductor identity (govt/PSU) clearly distinct from the TCS collector identity (e-commerce platform) - they're often confused in MCQs."
+          }
+        },
+        {
+          "id": "p3-gst15",
+          "name": "Returns",
+          "weightage": "High",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "GSTR-1 - outward supplies statement",
+                "ref": "S.37",
+                "body": "Monthly (turnover>Rs.5Cr, or opted) by 11th of next month, or Quarterly under QRMP scheme (turnover<=Rs.5Cr) by 13th of month after quarter-end. Contains invoice-wise B2B and consolidated B2C outward supply details."
+              },
+              {
+                "term": "GSTR-1A",
+                "ref": "concept",
+                "body": "Optional facility allowing supplier to amend/add details of outward supplies for a tax period AFTER filing GSTR-1 but BEFORE filing GSTR-3B for that period - corrects errors before the recipient's ITC gets locked in via GSTR-2B."
+              },
+              {
+                "term": "GSTR-2B - auto-generated ITC statement",
+                "ref": "S.38",
+                "body": "Auto-generated monthly statement (not filed by taxpayer) showing ITC available/not-available based on suppliers' GSTR-1/IFF filings, generated on a fixed date each month - forms the basis for ITC eligibility checks under S.16(2)(aa)."
+              },
+              {
+                "term": "GSTR-3B - summary return + tax payment",
+                "ref": "S.39",
+                "body": "Monthly (by 20th of next month for >Rs.5Cr turnover; staggered 20th/22nd/24th for smaller taxpayers across state groups) or Quarterly (QRMP, by 22nd/24th after quarter-end). Self-assessed summary of outward supply, ITC claimed, and tax payment - the actual tax-paying return."
+              },
+              {
+                "term": "QRMP Scheme",
+                "ref": "concept",
+                "body": "Quarterly Return Monthly Payment: available to taxpayers with turnover <=Rs.5 crore. File GSTR-1/GSTR-3B quarterly, but pay tax monthly via a simplified payment challan (either 35% of last quarter's cash liability via fixed sum method, or self-assessment method) for the first 2 months of the quarter."
+              },
+              {
+                "term": "Annual Return - GSTR-9",
+                "ref": "S.44",
+                "body": "Filed by 31st December following the end of the financial year. Mandatory for regular taxpayers with turnover above the prescribed threshold (currently optional below Rs.2 crore, with relaxations notified periodically). GSTR-9C (reconciliation statement, self-certified) required additionally above Rs.5 crore turnover."
+              },
+              {
+                "term": "Final Return - GSTR-10",
+                "ref": "S.45",
+                "body": "Filed within 3 months of cancellation of registration or cancellation order date (whichever later) - applicable to taxpayers whose registration is cancelled or surrendered, to settle final tax liability and ITC reversal on closing stock."
+              },
+              {
+                "term": "Other specific returns",
+                "ref": "list",
+                "body": "GSTR-4: annual return for composition taxpayers (by 30th April following FY). GSTR-5: return by non-resident taxable person. GSTR-8: TCS statement by e-commerce operator. GSTR-11: statement by UIN holders for claiming refund on inward supplies."
+              },
+              {
+                "term": "Late fee for default",
+                "ref": "S.47",
+                "body": "Rs.100/day CGST + Rs.100/day SGST (i.e. Rs.200/day total) up to a maximum cap, subject to lower caps for nil-liability returns and for small taxpayers per turnover slabs (reduced caps notified periodically, e.g. Rs.2,000/Rs.5,000/Rs.10,000 depending on turnover band)."
+              },
+              {
+                "term": "Goods and Services Tax Practitioner (GSTP)",
+                "ref": "S.48",
+                "body": "Person enrolled to assist registered persons in preparing/filing returns on their behalf, based on information provided by the registered person - acts on the taxpayer's authorization but the taxpayer remains legally responsible for the return's accuracy."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "Identifying correct return + due date for a given taxpayer profile",
+                "howTo": "First classify taxpayer type (regular monthly/QRMP/composition/NRTP/ECO), then match to the corresponding return (GSTR-1/3B/4/5/8) and apply the relevant due date - turnover threshold (Rs.5 crore) is the key QRMP-eligibility gatekeeper."
+              },
+              {
+                "name": "Late fee computation with caps",
+                "howTo": "Compute Rs.200/day (CGST+SGST combined) for the actual delay period, then apply whichever cap is lower between the standard maximum and any turnover-based or nil-return reduced cap that applies to that specific taxpayer."
+              }
+            ],
+            "notes": "This is the capstone procedural chapter tying the whole compliance cycle together (GSTR-1 -> GSTR-2B -> GSTR-3B -> GSTR-9). The QRMP scheme mechanics and the GSTR-1/3B due-date structure are the most exam-relevant operational details; the late fee cap table is dense recall material worth a quick review pass."
+          }
         }
       ]
     },
@@ -2023,3 +3021,5 @@ const TRACKER_DATA = {
     }
   ]
 };
+
+```
