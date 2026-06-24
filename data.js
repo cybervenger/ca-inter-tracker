@@ -2312,7 +2312,792 @@ const TRACKER_DATA = {
       "id": "p5",
       "name": "Auditing & Ethics",
       "group": 2,
-      "chapters": []
+      "chapters": [
+        {
+          "id": "p5-a1",
+          "name": "Nature, Objective and Scope of Audit",
+          "weightage": "Medium",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Definition of Audit",
+                "ref": "concept",
+                "body": "Independent examination of financial information of any entity (profit-oriented or not, any size/legal form) conducted with a view to expressing an opinion thereon."
+              },
+              {
+                "term": "Reasonable vs Absolute assurance",
+                "ref": "SA 200",
+                "body": "Audit provides REASONABLE assurance (high level, but not complete) - never absolute/complete assurance, due to inherent limitations."
+              },
+              {
+                "term": "Objectives of audit per SA 200",
+                "ref": "concept",
+                "body": "(a) Obtain reasonable assurance financial statements as a whole are free from material misstatement (fraud or error), enabling opinion on compliance with applicable financial reporting framework; (b) Report and communicate per SA requirements."
+              },
+              {
+                "term": "Scope of audit - what it includes",
+                "ref": "concept",
+                "body": "Coverage of all aspects of entity relevant to FS; reliability & sufficiency of financial information; proper disclosure of financial information; expression of opinion."
+              },
+              {
+                "term": "Scope of audit - what it does NOT include",
+                "ref": "concept",
+                "body": "Responsibility for preparation/presentation of FS (management's job); duties outside auditor's competence (e.g. physical condition of machinery, civil structure life); authentication of documents; investigation (audit is general/broad, investigation is specific/narrow with a special purpose)."
+              },
+              {
+                "term": "5 Inherent Limitations of Audit",
+                "ref": "SA 200",
+                "body": "(1) Nature of financial reporting - involves management judgment, (2) Nature of audit procedures - practical/legal limits on evidence (sampling, management may not provide complete info, sophisticated fraud schemes, auditor not document-authentication expert), (3) Not in nature of investigation, (4) Timeliness of reporting - relevance decreases over time, balance needed vs cost, (5) Future events may affect entity adversely, can't be predicted with certainty."
+              },
+              {
+                "term": "Assurance Engagement - 5 elements",
+                "ref": "concept",
+                "body": "(1) Three-party relationship: practitioner, responsible party, intended users, (2) Appropriate subject matter, (3) Suitable criteria, (4) Sufficient appropriate evidence, (5) Written assurance report in appropriate form."
+              },
+              {
+                "term": "Reasonable vs Limited assurance engagement",
+                "ref": "comparison",
+                "body": "Reasonable (e.g. Audit): high level of assurance, elaborate/extensive procedures. Limited (e.g. Review): lower/moderate level of assurance, fewer procedures, limited conclusions."
+              },
+              {
+                "term": "Historical vs Prospective financial information",
+                "ref": "concept",
+                "body": "Historical: about past economic events/conditions. Prospective: based on assumptions about future events (forecast/projection). Audits of prospective info only assure assumptions are 'not unreasonable' - moderate assurance level, since future evidence is itself forward-looking."
+              },
+              {
+                "term": "4 Engagement Standards + Quality Control",
+                "ref": "classification",
+                "body": "SAs (Standards on Auditing) - historical FS audits. SREs (Review Engagements) - historical FS reviews. SAEs (Assurance Engagements) - non-historical-FS matters (e.g. prospective info, internal controls). SRSs (Related Services) - agreed-upon procedures, compilation engagements (no assurance/opinion given). SQC 1 applies across ALL of the above."
+              },
+              {
+                "term": "Audit vs Investigation",
+                "ref": "comparison",
+                "body": "Audit: general & broad scope, reasonable assurance, regular/periodic. Investigation: specific & narrow scope (special purpose, e.g. suspected fraud), critical examination, no opinion on true-and-fair view as such."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [],
+            "notes": "Foundational/conceptual chapter using ICAI's signature case-study (Sameer/Rohit/Gurpreet) MCQ format. The reasonable-vs-absolute-assurance distinction and the 5 inherent limitations are the most frequently tested points - nearly every other chapter's SAs build on these foundational definitions."
+          }
+        },
+        {
+          "id": "p5-a2",
+          "name": "Audit Strategy, Audit Planning and Audit Programme",
+          "weightage": "Medium",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "SA 300 - Planning an audit",
+                "ref": "concept",
+                "body": "Objective: plan the audit so it's performed in an effective manner. Planning involves establishing overall audit strategy AND developing a detailed audit plan."
+              },
+              {
+                "term": "Benefits of planning",
+                "ref": "list",
+                "body": "Devote appropriate attention to important areas; identify/resolve potential problems timely; organize/manage engagement efficiently; select team members with appropriate skills; facilitate direction/supervision/review; coordinate work of experts/others."
+              },
+              {
+                "term": "Audit Strategy vs Audit Plan",
+                "ref": "comparison",
+                "body": "Strategy: sets the SCOPE, TIMING, DIRECTION of audit, guides development of the more detailed plan. Plan: more DETAILED than strategy, addresses the various matters in the strategy, includes NATURE/TIMING/EXTENT of audit procedures (risk assessment + further procedures)."
+              },
+              {
+                "term": "Audit Programme",
+                "ref": "concept",
+                "body": "Detailed plan of audit work, listing specific procedures to be performed, by whom, and the time to be spent - serves as both a set of instructions and a record/evidence of work done."
+              },
+              {
+                "term": "Plans are dynamic, not static",
+                "ref": "concept",
+                "body": "Plans should be based on knowledge of client's business and further developed/revised AS NECESSARY during the course of the audit - new information discovered mid-audit can require re-planning."
+              },
+              {
+                "term": "Delegation and Supervision of audit work",
+                "ref": "concept",
+                "body": "Quality control requires direction, supervision, and review of work performed by assistants commensurate with their experience - ensures consistent quality across the engagement team."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [],
+            "notes": "Short, conceptual, procedural chapter. The Strategy-vs-Plan-vs-Programme three-tier distinction (broad to specific) is the core recurring exam point - always frame answers around that hierarchy."
+          }
+        },
+        {
+          "id": "p5-a3",
+          "name": "Risk Assessment and Internal Control",
+          "weightage": "High",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Audit Risk definition",
+                "ref": "SA 200",
+                "body": "The risk that the auditor expresses an INAPPROPRIATE opinion when the financial statements are MATERIALLY MISSTATED. Auditor plans/performs audit to reduce this risk to an acceptably low level, never to zero."
+              },
+              {
+                "term": "Audit Risk components",
+                "ref": "formula",
+                "body": "Audit Risk = Risk of Material Misstatement (Inherent Risk x Control Risk) x Detection Risk. Inherent Risk: susceptibility of an assertion to misstatement before controls. Control Risk: risk that internal controls won't prevent/detect/correct a misstatement timely. Detection Risk: risk auditor's procedures won't detect an existing misstatement."
+              },
+              {
+                "term": "Materiality concept",
+                "ref": "concept",
+                "body": "Misstatements (including omissions) are material if they could reasonably influence economic decisions of users. Judged in light of surrounding circumstances - magnitude AND nature both matter."
+              },
+              {
+                "term": "Understanding the entity and its environment",
+                "ref": "SA 315",
+                "body": "Required to identify/assess risks of material misstatement: industry/regulatory/external factors, nature of entity (operations, ownership, governance, investments), accounting policy selection/application, objectives/strategies/related business risks, measurement & review of financial performance."
+              },
+              {
+                "term": "5 Components of Internal Control (COSO framework)",
+                "ref": "concept",
+                "body": "(1) Control Environment - tone at the top, (2) Entity's Risk Assessment Process, (3) Information System & Communication, (4) Control Activities (authorization, performance reviews, segregation of duties, physical controls), (5) Monitoring of Controls."
+              },
+              {
+                "term": "Not all controls are relevant to audit",
+                "ref": "concept",
+                "body": "Auditor exercises professional judgment on which controls (individually/combined) are relevant to assessing RMM and designing further procedures - operational efficiency controls (e.g. unrelated to FS reliability) may be irrelevant to the audit."
+              },
+              {
+                "term": "Risks requiring special audit consideration",
+                "ref": "concept",
+                "body": "Significant risks: risks of material misstatement that require SPECIAL audit consideration due to nature, degree of judgment involved, or unusual/non-routine nature of transactions - require a response that goes beyond standard substantive procedures alone."
+              },
+              {
+                "term": "Automated environment - key IT-related risks",
+                "ref": "concept",
+                "body": "Inaccurate processing of data, unauthorized access leading to improper changes to data/programs, potential loss of data, IT personnel gaining access privileges beyond necessary, unauthorized changes to systems/programs, failure to make necessary system changes."
+              },
+              {
+                "term": "Types of controls in automated environment",
+                "ref": "classification",
+                "body": "General IT Controls (GITC): apply across all systems (access security, change management, IT operations). Application Controls: specific to individual applications (input/processing/output controls, validation checks, edit checks)."
+              },
+              {
+                "term": "Auditor's responses to assessed risks",
+                "ref": "SA 330",
+                "body": "Overall responses (e.g. emphasizing professional skepticism, assigning more experienced staff, providing more supervision) + specific responses (nature/timing/extent of further audit procedures tailored to the assessed risk at the assertion level)."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "Identifying audit risk component from a scenario",
+                "howTo": "Classify the described risk as Inherent (something about the business/transaction itself, before any controls), Control (a gap or failure in the client's internal control design/operation), or Detection (related to auditor's own procedure choice/sample/timing) - this 3-way classification is the recurring MCQ pattern."
+              }
+            ],
+            "notes": "High-weightage, conceptually dense chapter - the Audit Risk formula (IR x CR x DR) and the COSO 5-component internal control framework are the two pillars. The automated-environment IT risk/controls section is increasingly emphasized given digital audit trends - don't skip it as a 'minor' addition."
+          }
+        },
+        {
+          "id": "p5-a4",
+          "name": "Audit Evidence",
+          "weightage": "High",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Sufficiency vs Appropriateness of evidence",
+                "ref": "SA 500",
+                "body": "Sufficiency: QUANTITY of evidence (affected by auditor's risk assessment and quality of evidence itself). Appropriateness: QUALITY of evidence - comprises Relevance + Reliability."
+              },
+              {
+                "term": "Reliability hierarchy of audit evidence",
+                "ref": "concept",
+                "body": "More reliable: evidence obtained from independent external sources; auditor's own direct knowledge/observation; original documents (vs photocopies); written evidence (vs oral). Internal evidence is more reliable when related internal controls are effective."
+              },
+              {
+                "term": "Financial Statement Assertions",
+                "ref": "concept",
+                "body": "Classes of transactions/events: Occurrence, Completeness, Accuracy, Cutoff, Classification. Account balances: Existence, Rights & Obligations, Completeness, Valuation & Allocation. Presentation & disclosure: Occurrence+Rights&Obligations, Completeness, Classification & Understandability, Accuracy & Valuation."
+              },
+              {
+                "term": "Audit procedures to obtain evidence",
+                "ref": "list",
+                "body": "Inspection (of records/tangible assets), Observation (of a process/procedure), External Confirmation, Recalculation, Reperformance, Analytical Procedures, Inquiry (alone is insufficient, must be corroborated)."
+              },
+              {
+                "term": "Using the work of Internal Auditors",
+                "ref": "SA 610",
+                "body": "External auditor evaluates: objectivity of internal audit function, technical competence, due professional care, communication effectiveness - then decides whether/to what extent to use their work, but retains FULL responsibility for the audit opinion regardless."
+              },
+              {
+                "term": "Audit Sampling",
+                "ref": "SA 530",
+                "body": "Application of procedures to LESS than 100% of population items, such that all sampling units have a chance of selection, to provide a basis for conclusions about the entire population. Methods: Statistical (random/systematic, uses probability theory) vs Non-statistical (judgmental selection)."
+              },
+              {
+                "term": "Sampling Risk vs Non-Sampling Risk",
+                "ref": "concept",
+                "body": "Sampling risk: conclusion based on a sample differs from conclusion if entire population were tested (inherent to sampling itself). Non-sampling risk: auditor reaches erroneous conclusion for reasons unrelated to sample size (e.g. wrong procedure used, misinterpreted evidence)."
+              },
+              {
+                "term": "Specific items - SA 501",
+                "ref": "concept",
+                "body": "Inventory: attendance at physical counting mandatory if material, unless impracticable. Litigation & claims: inquiry of management + legal counsel, written representations. Segment information: understand methods used + consistency, perform analytical procedures."
+              },
+              {
+                "term": "External Confirmations - SA 505",
+                "ref": "concept",
+                "body": "Positive confirmation: requests respondent to reply in ALL cases (whether they agree or not) - provides more reliable evidence. Negative confirmation: respondent replies ONLY if they disagree - lower reliability, used when risk is low and population is large with similar small balances."
+              },
+              {
+                "term": "Opening Balances - SA 510",
+                "ref": "concept",
+                "body": "For initial audit engagements: obtain sufficient appropriate evidence that opening balances don't contain misstatements materially affecting current FS, and that prior period closing balances were correctly brought forward (or restated where appropriate)."
+              },
+              {
+                "term": "Related Parties - SA 550",
+                "ref": "concept",
+                "body": "Risk of material misstatement is HIGHER for related party transactions (may not be conducted at arm's length, may be deliberately concealed by management) - requires specific risk assessment procedures and heightened professional skepticism."
+              },
+              {
+                "term": "Analytical Procedures - SA 520",
+                "ref": "concept",
+                "body": "Evaluations of financial information through analysis of plausible relationships among both financial and non-financial data - includes investigation of identified fluctuations/relationships inconsistent with other relevant information or differing significantly from expected values."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "Classifying evidence by reliability hierarchy",
+                "howTo": "Rank given evidence sources by independence (external > internal), directness (auditor's own observation > client-provided), and form (written > oral, original > photocopy) to determine which provides the strongest evidence in a given scenario."
+              },
+              {
+                "name": "Choosing positive vs negative confirmation method",
+                "howTo": "Assess: is assessed risk LOW + population LARGE with small homogeneous balances + low expected error rate -> negative confirmation acceptable; otherwise default to positive confirmation for stronger evidence."
+              }
+            ],
+            "notes": "Core, high-weightage chapter underlying most practical audit work. The assertions framework (which assertion does which audit procedure test) and the SA 500/501/505/520/530/550/610 mini-standards are frequently tested as 'identify the applicable SA' questions - build a quick mental index of SA number to topic."
+          }
+        },
+        {
+          "id": "p5-a5",
+          "name": "Audit of Items of Financial Statements",
+          "weightage": "High",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Assertion-based audit approach",
+                "ref": "concept",
+                "body": "Every line item in financial statements carries implied assertions; auditor designs specific procedures to test each relevant assertion for that line item, building up overall opinion from individual judgments."
+              },
+              {
+                "term": "Balance Sheet caption assertions",
+                "ref": "classification",
+                "body": "Existence, Rights & Obligations, Completeness, Valuation, Presentation & Disclosure - tested for every asset/liability/equity balance (e.g. trade receivables: existence = confirm balance is real; valuation = check recoverability/provision for doubtful debts)."
+              },
+              {
+                "term": "Income Statement caption assertions",
+                "ref": "classification",
+                "body": "Occurrence, Completeness, Cut-off, Measurement, Presentation & Disclosure - tested for revenue/expense items (e.g. sales: occurrence = transaction actually happened; cut-off = recorded in the correct period)."
+              },
+              {
+                "term": "Schedule III framework reference",
+                "ref": "concept",
+                "body": "Indian companies' financial statements must follow Schedule III of the Companies Act 2013 format - auditor checks classification/presentation compliance against this framework as part of disclosure assertion testing."
+              },
+              {
+                "term": "Key audit procedures by balance sheet item (illustrative)",
+                "ref": "concept",
+                "body": "Property/Plant/Equipment: physical verification, title deed check, depreciation recalculation. Trade Receivables: confirmation, subsequent receipt tracing, ageing analysis for provisioning. Inventory: physical count attendance, valuation method (lower of cost/NRV) verification. Trade Payables: confirmation, completeness via subsequent payment/invoice tracing."
+              },
+              {
+                "term": "Key audit procedures by P&L item (illustrative)",
+                "ref": "concept",
+                "body": "Revenue: cut-off testing around year-end, agreement to dispatch/delivery documents, analytical review against prior year/budget. Expenses: vouching to supporting documents, completeness check via accrual review, related-party expense scrutiny."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "Mapping a given balance sheet/P&L item to its relevant assertions and audit procedures",
+                "howTo": "For any named line item, first identify which assertions are MOST at risk for that specific item (e.g. inventory - existence & valuation are higher-risk than rights&obligations), then design/select procedures that specifically target those higher-risk assertions rather than generic checking."
+              }
+            ],
+            "notes": "Practical application chapter linking the assertions framework (from Audit Evidence chapter) to specific real financial statement captions. Best studied as a continuation of Chapter 4 rather than standalone - the assertions vocabulary must already be solid before this chapter clicks."
+          }
+        },
+        {
+          "id": "p5-a6",
+          "name": "Audit Documentation",
+          "weightage": "Low",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Definition - SA 230",
+                "ref": "concept",
+                "body": "Record of audit procedures performed, relevant audit evidence obtained, and conclusions the auditor reached. Also called 'working papers' or 'work papers'."
+              },
+              {
+                "term": "Objective of audit documentation",
+                "ref": "concept",
+                "body": "Provide (a) sufficient appropriate record of basis for auditor's report, AND (b) evidence that audit was planned/performed in accordance with SAs and legal/regulatory requirements."
+              },
+              {
+                "term": "Purposes of audit documentation",
+                "ref": "list",
+                "body": "Assist engagement team to plan/perform audit; assist direction/supervision/review responsibilities; enable accountability; retain record of continuing significance to future audits; enable quality control reviews (SQC 1); enable external inspections."
+              },
+              {
+                "term": "Ownership of audit documentation",
+                "ref": "concept",
+                "body": "Working papers are the PROPERTY OF THE AUDITOR (unless law/regulation provides otherwise) - the auditor may, at discretion, make portions/extracts available to the client, but is not obligated to do so."
+              },
+              {
+                "term": "Form, content and extent of documentation",
+                "ref": "concept",
+                "body": "Depends on factors like: size/complexity of entity, nature of audit procedures, identified risks, significance of evidence, audit methodology/tools used. Should be sufficient to enable an EXPERIENCED auditor (with no prior connection to the audit) to understand work performed and conclusions reached."
+              },
+              {
+                "term": "Assembly of final audit file",
+                "ref": "concept",
+                "body": "Must be completed within 60 days after the date of auditor's report. After assembly, documents cannot be deleted/discarded before end of retention period; additions are permitted but must be documented as to when/by whom/why, without changing the original information."
+              },
+              {
+                "term": "Retention period for audit documentation",
+                "ref": "concept",
+                "body": "Minimum 7 years from the date of the auditor's report (or, if later, the date of the group auditor's report) - aligned broadly with statutory record-keeping requirements."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [],
+            "notes": "Short, procedural/recall chapter. The ownership rule (auditor owns the papers, not the client) and the 60-day assembly deadline + 7-year retention period are the most commonly tested specific facts."
+          }
+        },
+        {
+          "id": "p5-a7",
+          "name": "Completion and Review",
+          "weightage": "Medium",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Subsequent Events - SA 560",
+                "ref": "concept",
+                "body": "Events occurring between date of FS and date of auditor's report, AND facts becoming known to auditor after the date of auditor's report. Two types: Adjusting events (require FS adjustment, e.g. settling a year-end legal claim for less than provided) and Non-adjusting events (only disclosure needed)."
+              },
+              {
+                "term": "Auditor's responsibility for subsequent events",
+                "ref": "SA 560",
+                "body": "Between FS date and report date: ACTIVE duty to perform procedures to identify such events. After report date but before FS issued: if auditor becomes aware of facts, discuss with management, determine if FS needs amendment. After FS issued: generally no obligation, but if facts existed at report date and would have caused a different opinion, specific remedial action required."
+              },
+              {
+                "term": "Going Concern - SA 570",
+                "ref": "concept",
+                "body": "Fundamental accounting assumption that entity will continue operations for the foreseeable future (at least 12 months from period end/approval date), without intention/necessity of liquidation or ceasing operations. Auditor evaluates appropriateness of management's use of this assumption."
+              },
+              {
+                "term": "Indicators of going concern issues",
+                "ref": "list",
+                "body": "Financial: negative net worth/working capital, fixed-term borrowings approaching maturity without realistic refinancing, adverse key financial ratios, substantial operating losses. Operating: loss of key management/market/franchise, labour difficulties, shortage of important supplies. Other: non-compliance with capital/statutory requirements, pending legal proceedings that may result in unsatisfiable claims, changes in law/policy adversely affecting the entity."
+              },
+              {
+                "term": "Evaluation of Misstatements - SA 450",
+                "ref": "concept",
+                "body": "Auditor accumulates misstatements identified during the audit (other than clearly trivial ones), communicates them to management on a timely basis, and evaluates whether UNCORRECTED misstatements (individually or in aggregate) are material to the FS as a whole before forming the final opinion."
+              },
+              {
+                "term": "Written Representations - SA 580",
+                "ref": "concept",
+                "body": "A written statement by management provided to confirm certain matters or support other audit evidence - obtained from management with appropriate responsibilities for FS, doesn't substitute for other evidence the auditor could reasonably expect to be available, but acts as necessary corroboration where no other evidence exists (e.g. management's future intentions)."
+              },
+              {
+                "term": "Communication with Those Charged with Governance - SA 260",
+                "ref": "concept",
+                "body": "Auditor communicates: auditor's responsibilities re: the FS audit, planned scope/timing of audit, significant findings, auditor's independence (where relevant). Purpose: establish effective two-way communication, helps auditor obtain relevant information, assists governance body in oversight."
+              },
+              {
+                "term": "Communicating Deficiencies in Internal Control - SA 265",
+                "ref": "concept",
+                "body": "Auditor communicates SIGNIFICANT deficiencies in internal control identified during the audit, in writing, to those charged with governance on a timely basis - distinguished from merely communicating to management for minor/operational deficiencies."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "Classifying a subsequent event as adjusting vs non-adjusting",
+                "howTo": "Ask: did the condition giving rise to the event EXIST at the balance sheet date (just came to light later) - if yes, adjust the FS; if the event arose entirely AFTER the balance sheet date (a genuinely new condition), only disclose, don't adjust."
+              },
+              {
+                "name": "Identifying going concern risk indicators from a fact pattern",
+                "howTo": "Sort the given facts into financial/operating/other categories per the standard indicator list; assess cumulative severity (a single minor indicator rarely triggers a going-concern qualification, but multiple compounding indicators do) before concluding on the appropriateness of the going-concern assumption."
+              }
+            ],
+            "notes": "Tightly clustered set of 'final stage' SAs (560/570/450/580/260/265) that all occur near the end of the audit cycle. The adjusting-vs-non-adjusting subsequent events test and the going-concern indicator checklist are the two highest-yield recurring patterns."
+          }
+        },
+        {
+          "id": "p5-a8",
+          "name": "Audit Report",
+          "weightage": "High",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "SA 700 - Forming an Opinion and Reporting",
+                "ref": "concept",
+                "body": "Auditor evaluates whether FS as a whole are free from material misstatement, considering qualitative aspects of accounting practices (not just quantitative), and whether FS adequately disclose significant accounting policies/their selection/application."
+              },
+              {
+                "term": "Basic elements of audit report",
+                "ref": "list",
+                "body": "Title, Addressee, Auditor's Opinion (with paragraph heading), Basis for Opinion, Key Audit Matters (if applicable), Responsibilities of Management/those charged with governance, Auditor's Responsibilities for the Audit, Other Reporting Responsibilities (legal/regulatory), Signature, Auditor's Address, Date of Report."
+              },
+              {
+                "term": "Types of Modified Opinions - SA 705",
+                "ref": "concept",
+                "body": "Qualified Opinion: misstatements are material but NOT pervasive (or auditor unable to obtain sufficient evidence, but possible effects not pervasive). Adverse Opinion: misstatements are material AND pervasive. Disclaimer of Opinion: unable to obtain sufficient appropriate evidence AND possible effects could be both material and pervasive."
+              },
+              {
+                "term": "Pervasive - meaning",
+                "ref": "concept",
+                "body": "Effects on FS that: (a) are not confined to specific elements/accounts/items, (b) if confined, represent/could represent a substantial proportion of the FS, or (c) in relation to disclosures, are fundamental to users' understanding of the FS."
+              },
+              {
+                "term": "Key Audit Matters - SA 701",
+                "ref": "concept",
+                "body": "Matters that, in auditor's professional judgment, were of MOST SIGNIFICANCE in the audit of current period FS - selected from matters communicated to those charged with governance. Mandatory for listed entities; communicates WHY the matter was significant and HOW it was addressed in the audit."
+              },
+              {
+                "term": "Emphasis of Matter & Other Matter Paragraphs - SA 706",
+                "ref": "concept",
+                "body": "Emphasis of Matter: draws attention to a matter ALREADY appropriately presented/disclosed in FS, fundamental to users' understanding - does NOT modify the opinion. Other Matter: relates to matters OTHER than those in the FS, relevant to users' understanding of the audit/auditor's responsibilities/report itself."
+              },
+              {
+                "term": "Comparative Information - SA 710",
+                "ref": "concept",
+                "body": "Corresponding Figures: prior period amounts are an integral part of CURRENT period FS, opinion ONLY on current period (prior period figures referred to only in relation to current period). Comparative Financial Statements: prior period amounts are COMPLETE FS in their own right, opinion expressed individually on each period presented."
+              },
+              {
+                "term": "Using the work of Another Auditor - SA 600",
+                "ref": "concept",
+                "body": "Principal auditor (auditing the parent/main FS) uses work of another auditor (auditing a component, e.g. branch/subsidiary) - principal auditor determines how the other auditor's work affects the audit, may need to perform additional procedures, but division of responsibility may be disclosed in the report."
+              },
+              {
+                "term": "Joint Audit - SA 299",
+                "ref": "concept",
+                "body": "Two or more auditors are appointed to conduct audit of the same entity, jointly responsible for the work as a whole, but each joint auditor is responsible ONLY for the work allocated to them (not jointly/severally liable for work properly allocated to and performed by another joint auditor, except in specific circumstances)."
+              },
+              {
+                "term": "Companies Act 2013 reporting requirements",
+                "ref": "concept",
+                "body": "S.143 prescribes specific matters the auditor must report on for companies (e.g. whether proper books of account maintained, whether FS comply with accounting standards, observations/comments having adverse effect on functioning, etc.) - in addition to the standard SA 700 opinion."
+              },
+              {
+                "term": "CARO 2020 (Companies Auditor's Report Order)",
+                "ref": "concept",
+                "body": "Additional reporting requirements applicable to most companies (with specified exemptions for small/private companies meeting certain thresholds) - covers matters like fixed assets, inventory, loans/investments, statutory dues, fraud, going concern, etc., as a SEPARATE annexure to the main audit report."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "Selecting the correct modified opinion type from a fact pattern",
+                "howTo": "Two-step test: (1) is the issue a MISSTATEMENT or a SCOPE LIMITATION (inability to obtain evidence)? (2) is the effect MATERIAL ONLY or MATERIAL+PERVASIVE? Misstatement+material-only -> Qualified. Misstatement+pervasive -> Adverse. Scope limitation+material-only -> Qualified. Scope limitation+material+pervasive -> Disclaimer."
+              },
+              {
+                "name": "Distinguishing Emphasis of Matter from a qualification",
+                "howTo": "Check: is the matter ALREADY correctly disclosed in the FS itself? If yes and auditor just wants to highlight it for user attention, it's Emphasis of Matter (opinion unmodified). If the disclosure itself is missing/inadequate, that's a misstatement requiring a modified opinion instead."
+              }
+            ],
+            "notes": "Highest-weightage chapter in the whole paper alongside Risk Assessment - the modified-opinion decision tree (materiality x pervasiveness, misstatement vs scope-limitation) is the single most tested numerical/scenario-based pattern in all of Auditing. Master that 2x2 grid cold."
+          }
+        },
+        {
+          "id": "p5-a9",
+          "name": "Special Features of Audit of Different Types of Entities",
+          "weightage": "Medium",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Government Audit & CAG",
+                "ref": "Article 148-151",
+                "body": "Comptroller and Auditor General of India (CAG) is the 'Supreme Audit Institution of India' - audits receipts/expenditure of Union & States, bodies substantially financed by Union/State revenues, and Government companies. Appointed by President, removable only like a Supreme Court judge (ensuring independence). Reports submitted to President/Governor, laid before Parliament/State Legislature."
+              },
+              {
+                "term": "Consolidated Fund of India - Article 266",
+                "ref": "concept",
+                "body": "Consists of all revenue from direct/indirect taxes, all loans raised by Govt of India, and all loan repayments received - no expenditure can be incurred from it without Parliamentary/Legislative approval (via Demand for Grants)."
+              },
+              {
+                "term": "Local Bodies audit",
+                "ref": "concept",
+                "body": "Control over expenditure exercised primarily through budgetary control and internal checks; objectives include ensuring legality/propriety of expenditure, financial regularity, and that funds were used for the purposes for which they were sanctioned."
+              },
+              {
+                "term": "NGO/Charitable Institutions audit considerations",
+                "ref": "concept",
+                "body": "Constitution of organisation (trust deed/society registration/Section 8 company), specific grant/donor conditions on fund utilization, verification that funds were used for the stated charitable objects, compliance with FCRA (if receiving foreign contributions)."
+              },
+              {
+                "term": "Educational Institutions, Hospitals, Clubs, Hotels, Cinema halls - constitution check",
+                "ref": "concept",
+                "body": "Common thread across all these special entities: auditor must FIRST verify the constitution/governing document (trust deed, society bye-laws, partnership deed, etc.) since permissible income/expenditure and reporting obligations flow directly from that founding document."
+              },
+              {
+                "term": "Hire Purchase and Leasing Company audit",
+                "ref": "concept",
+                "body": "Special considerations: verification of hire purchase/lease agreements, proper accounting treatment of finance vs operating leases, verification of installments receivable, repossession of goods on default, provision for bad/doubtful hire purchase debts."
+              },
+              {
+                "term": "LLP (Limited Liability Partnership) audit",
+                "ref": "concept",
+                "body": "Governed by LLP Act 2008; audit mandatory if turnover exceeds Rs.40 lakh OR contribution exceeds Rs.25 lakh; auditor verifies LLP Agreement provisions (profit-sharing, capital contribution) similar to how a company auditor checks AOA/MOA."
+              },
+              {
+                "term": "Co-operative Society audit",
+                "ref": "concept",
+                "body": "Governed by respective State Co-operative Societies Act; auditor specifically examines compliance with the Act's provisions, bye-laws, and verifies that society's funds were utilized for purposes specified in the Act/bye-laws - often a STATUTORY auditor appointed under the cooperative law itself, not just the Companies Act framework."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [],
+            "notes": "Wide-coverage, low-numerical 'special entities' chapter - mostly a checklist of which document to check FIRST (constitution/governing deed) for each entity type, then what special considerations follow from it. Good for quick recall marks rather than deep numerical practice."
+          }
+        },
+        {
+          "id": "p5-a10",
+          "name": "Audit of Banks",
+          "weightage": "High",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Types of banks in India",
+                "ref": "classification",
+                "body": "Commercial Banks (deposits+advances, most widespread), Regional Rural Banks (RRBs, rural focus), Co-operative Banks (registered under Cooperative Societies Act, function like commercial banks), Development Banks/Term-Lending Institutions, Small Finance Banks, Payment Banks (limited scope - no lending)."
+              },
+              {
+                "term": "Legal framework for bank audit",
+                "ref": "concept",
+                "body": "Banking Regulation Act 1949, RBI Act 1934, Companies Act 2013 (for banking companies), RBI master circulars/guidelines on income recognition, asset classification, provisioning."
+              },
+              {
+                "term": "Non-Performing Asset (NPA) classification",
+                "ref": "concept",
+                "body": "An asset becomes NPA when interest/installment of principal remains OVERDUE for a period exceeding 90 days (for term loans). Categories: Sub-standard (overdue <=12 months as NPA), Doubtful (overdue >12 months as NPA), Loss Assets (identified as virtually unrecoverable, full value loss but not yet written off)."
+              },
+              {
+                "term": "Income recognition policy for NPAs",
+                "ref": "concept",
+                "body": "Interest on NPA accounts should NOT be recognized as income on accrual basis - recognized only upon actual realization (cash basis), reversing any unrealized interest already credited to P&L."
+              },
+              {
+                "term": "Provisioning norms (illustrative)",
+                "ref": "concept",
+                "body": "Standard assets: general provision (small %). Sub-standard: higher % (secured vs unsecured portions differ). Doubtful: graduated % increasing with age of doubtful classification, plus 100% on unsecured portion. Loss assets: 100% provision required."
+              },
+              {
+                "term": "Bank audit approach - key audit areas",
+                "ref": "concept",
+                "body": "Advances (largest and riskiest asset - verify NPA classification accuracy, provisioning adequacy, documentation of security), Investments (held-to-maturity/available-for-sale/held-for-trading classification & valuation), Interest income/expense (accrual accuracy, NPA-related reversals), Contingent liabilities (LCs, guarantees, derivatives)."
+              },
+              {
+                "term": "Core Banking Solution (CBS) environment",
+                "ref": "concept",
+                "body": "Centralized IT platform enabling real-time, any-branch transactions - auditor must understand the IT control environment (access controls, data integrity, audit trail) given the scale and automation of bank transaction processing."
+              },
+              {
+                "term": "Statutory Central Auditors (SCA) vs Branch Auditors",
+                "ref": "concept",
+                "body": "Large banks appoint SCAs (consolidate the overall bank audit opinion) and separate branch auditors (for individual branches, especially larger ones) - SCA relies on branch auditors' reports similarly to how a principal auditor uses another auditor's work (SA 600 logic)."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "NPA classification + provisioning computation from an overdue-period fact pattern",
+                "howTo": "Determine number of days/months an account has been overdue; classify per the 90-day NPA threshold and subsequent sub-standard/doubtful/loss categories based on how long it's stayed in NPA status; apply the relevant provisioning percentage to the appropriate secured/unsecured split of the outstanding amount."
+              }
+            ],
+            "notes": "Highest-weightage specialized-entity chapter given how frequently bank audit numericals (NPA classification + provisioning) appear in exams. The 90-day NPA threshold and the sub-standard/doubtful/loss progression are the load-bearing facts - get comfortable computing provisioning from a simple overdue-period scenario."
+          }
+        },
+        {
+          "id": "p5-a11",
+          "name": "Ethics and Terms of Audit Engagements",
+          "weightage": "High",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Meaning of Ethics",
+                "ref": "concept",
+                "body": "Moral principles governing a person's behaviour/conduct of activity - branch of knowledge dealing with moral principles, intrinsic to the individual, a 'state of mind' to act per moral principles."
+              },
+              {
+                "term": "Need for Professional Ethics in auditing",
+                "ref": "concept",
+                "body": "Society/government/clients/investors place tremendous trust in CA services; the purpose of assurance engagements is to enhance user confidence, which REQUIRES users to trust the person providing the service - hence the heightened ethical requirement vs ordinary commerce."
+              },
+              {
+                "term": "Fundamental Principles of Professional Ethics",
+                "ref": "concept",
+                "body": "Integrity, Objectivity, Professional Competence & Due Care, Confidentiality, Professional Behaviour - the 5 pillars all CAs must uphold regardless of specific engagement type."
+              },
+              {
+                "term": "Independence of Auditors - 2 forms",
+                "ref": "concept",
+                "body": "Independence of MIND: state of mind permitting expression of a conclusion without being affected by influences that compromise professional judgment (actual independence). Independence in APPEARANCE: avoidance of facts/circumstances significant enough that a reasonable third party would conclude integrity/objectivity/professional skepticism had been compromised (perceived independence)."
+              },
+              {
+                "term": "5 Threats to Independence",
+                "ref": "classification",
+                "body": "Self-Interest Threat: financial/other interest influencing judgment (e.g. holding shares in client). Self-Review Threat: evaluating own prior work/judgment (e.g. auditing financial statements you helped prepare). Advocacy Threat: promoting a client's position to the point objectivity is compromised. Familiarity Threat: long/close relationship leading to being too sympathetic/trusting. Intimidation Threat: being deterred from acting objectively due to actual/perceived pressures (including attempts at undue influence)."
+              },
+              {
+                "term": "Safeguards to Independence",
+                "ref": "concept",
+                "body": "Created by the profession/legislation/regulation (education/training requirements, CPE, professional standards, monitoring/disciplinary processes) AND safeguards within the firm's own systems/procedures (quality control policies, rotation of senior personnel, involving another professional to review work, discussing ethical issues with those charged with governance)."
+              },
+              {
+                "term": "Professional Skepticism",
+                "ref": "concept",
+                "body": "An attitude that includes a QUESTIONING MIND, being alert to conditions that may indicate possible misstatement due to error/fraud, and a critical assessment of audit evidence - must be maintained throughout the audit, not just when fraud is specifically suspected."
+              },
+              {
+                "term": "SA 210 - Agreeing the Terms of Audit Engagement",
+                "ref": "concept",
+                "body": "Auditor's objective: accept/continue an audit engagement only when the basis upon which it is to be performed has been AGREED, through (a) establishing whether preconditions for an audit are present, and (b) confirming a common understanding between auditor and management/governance of the terms of engagement."
+              },
+              {
+                "term": "Preconditions for an Audit",
+                "ref": "SA 210",
+                "body": "Use of an ACCEPTABLE financial reporting framework in preparation of FS, AND agreement of management that it acknowledges/understands its responsibility for (i) preparation of FS per that framework, (ii) internal control necessary for FS free from material misstatement, (iii) providing the auditor with access to all relevant information/personnel."
+              },
+              {
+                "term": "Engagement Letter - key contents",
+                "ref": "SA 210",
+                "body": "Objective & scope of audit, auditor's responsibilities, management's responsibilities, identification of applicable financial reporting framework, reference to expected form/content of reports to be issued - serves as the WRITTEN record of the agreed terms, reducing risk of misunderstanding."
+              },
+              {
+                "term": "SQC 1 - basic overview",
+                "ref": "concept",
+                "body": "Establishes a firm's responsibility to have a SYSTEM OF QUALITY CONTROL covering: leadership responsibilities for quality, ethical requirements, acceptance/continuance of client relationships, human resources, engagement performance, and monitoring - applies firm-wide, not per-engagement."
+              },
+              {
+                "term": "SA 220 - basic overview",
+                "ref": "concept",
+                "body": "Quality control AT THE ENGAGEMENT LEVEL (as opposed to SQC 1's firm-wide scope) - covers engagement partner's responsibility for overall quality, relevant ethical requirements, acceptance/continuance decisions specific to that client, assignment of engagement teams, direction/supervision/review, and engagement quality control review for certain engagements."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "Identifying the specific threat to independence from a scenario",
+                "howTo": "Match the described situation to ONE of the 5 threat categories based on its core mechanism: financial/personal stake -> Self-Interest; reviewing own earlier work -> Self-Review; defending client's position publicly -> Advocacy; long-standing close relationship -> Familiarity; pressure/coercion -> Intimidation. Many MCQs test this exact classification."
+              }
+            ],
+            "notes": "High-weightage chapter that's both conceptually foundational (independence/ethics underpin the entire profession) and frequently scenario-tested. The 5-threats-to-independence classification is the single most repeated MCQ pattern in this chapter - practice matching scenarios to threat type until it's automatic."
+          }
+        }
+      ]
     },
     {
       "id": "p6",
