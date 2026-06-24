@@ -326,6 +326,866 @@ const TRACKER_DATA = {
             ],
             "notes": "Two of the most-cited doctrine pairs in this paper: Ultra Vires (limits company's own power) vs Constructive Notice + Indoor Management (govern outsider's rights against the company). Exam loves testing the EXCEPTIONS to Indoor Management specifically - know all 4 (knowledge of irregularity, negligence, forgery, ultra vires the company itself) since that's where nuance/marks live."
           }
+        },
+        {
+          "id": "p2-c4",
+          "name": "Prospectus and Allotment of Securities (Companies Act 2013, Ch. III)",
+          "weightage": "High",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Public Offer vs Private Placement - S.23",
+                "ref": "concept",
+                "body": "Public company can issue securities via: Public Offer (prospectus - IPO/FPO/OFS), Private Placement, or Rights/Bonus issue. Private company can issue ONLY via Private Placement or Rights/Bonus issue - cannot make a public offer at all."
+              },
+              {
+                "term": "Types of Prospectus",
+                "ref": "concept",
+                "body": "Red Herring Prospectus: issued before price/quantum of securities is finalized, doesn't include complete particulars of price/number. Shelf Prospectus: filed once for multiple issues over a period (max 1 year) without re-filing each time, used by entities making frequent issues (e.g. NBFCs). Abridged Prospectus: memorandum containing salient features, accompanies every application form."
+              },
+              {
+                "term": "Deemed Prospectus - S.25",
+                "ref": "concept",
+                "body": "Where a company allots/agrees to allot securities to an intermediary (e.g. issue house) with a view to those securities being offered to the public, any document through which the offer is made to the public is DEEMED a prospectus."
+              },
+              {
+                "term": "Civil liability for misstatement - S.35",
+                "ref": "concept",
+                "body": "Person who subscribes for securities on faith of a prospectus containing an untrue statement can claim compensation from every director, promoter, and person who authorized the issue - covers loss/damage sustained due to the misstatement."
+              },
+              {
+                "term": "Criminal liability for misstatement - S.34",
+                "ref": "concept",
+                "body": "Punishable under S.447 (fraud) if prospectus includes any untrue/misleading statement - applies to every person who authorized the issue of such prospectus."
+              },
+              {
+                "term": "Punishment for fraudulently inducing persons to invest - S.36",
+                "ref": "concept",
+                "body": "Any person who knowingly/recklessly makes a false/misleading statement, promise, or forecast to induce another to invest money is liable for action u/s 447 - separate from misstatement-in-prospectus liability, can apply even without a formal prospectus."
+              },
+              {
+                "term": "Private Placement - S.42",
+                "ref": "concept",
+                "body": "Offer/invitation to subscribe securities made to a SELECT group of persons (other than by way of public offer) through private placement offer letter. Max 200 persons in aggregate in a financial year (excluding QIBs and employees under ESOP) - if exceeded, deemed to be a public offer requiring full prospectus compliance."
+              },
+              {
+                "term": "Return of allotment - S.39",
+                "ref": "concept",
+                "body": "Company must file a return of allotment with the Registrar within 30 days of allotment, specifying details of allottees and securities allotted - non-compliance attracts penalty on the company and officers in default."
+              },
+              {
+                "term": "Securities Allotment - minimum subscription requirement",
+                "ref": "S.39",
+                "body": "No allotment of securities can be made unless the amount stated as MINIMUM SUBSCRIPTION in the prospectus has been received, and the sum payable on application has been received via specified banking channels."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "Identifying which prospectus type applies to a given fundraising scenario",
+                "howTo": "Match the scenario's stage/characteristics to the correct type: price not yet fixed -> Red Herring; repeated issues over time -> Shelf; accompanying an application form with summary info -> Abridged; offer via intermediary to ultimate public -> Deemed Prospectus."
+              },
+              {
+                "name": "Private placement headcount + exceeding-200 consequence",
+                "howTo": "Count offerees excluding QIBs/ESOP employees; if the running aggregate for the financial year exceeds 200, the entire offer is treated as a DEEMED PUBLIC OFFER, triggering full prospectus and public-offer compliance requirements retroactively for that offer."
+              }
+            ],
+            "notes": "High-weightage chapter covering capital-raising mechanics. The prospectus-type classification (Red Herring/Shelf/Abridged/Deemed) and the private-placement 200-person ceiling are the most frequently tested specific facts."
+          }
+        },
+        {
+          "id": "p2-c5",
+          "name": "Share Capital and Debentures (Companies Act 2013, Ch. IV)",
+          "weightage": "High",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Share - definition & nature",
+                "ref": "S.2(84)",
+                "body": "Share in the share capital of a company, includes stock. Per Borland's Trustee v Steel Bros: share = interest of shareholder measured by sum of money, comprising bundle of mutual covenants per Companies Act + AOA - NOT simply a sum of money."
+              },
+              {
+                "term": "Equity vs Preference share capital",
+                "ref": "S.43",
+                "body": "Equity: residual claim, voting rights generally proportionate to holding, no fixed dividend. Preference: preferential right to fixed dividend + preferential right to capital repayment on winding up - generally no voting rights except in specified circumstances (e.g. dividend arrears beyond a period, or matters directly affecting preference rights)."
+              },
+              {
+                "term": "Sweat Equity Shares - S.54",
+                "ref": "concept",
+                "body": "Equity shares issued to directors/employees at a discount or for consideration other than cash, for providing know-how or making available IP rights or value additions - subject to conditions (1-year minimum from commencement of business, specific resolution and disclosure requirements)."
+              },
+              {
+                "term": "Prohibition on issue of shares at a discount - S.53",
+                "ref": "concept",
+                "body": "Company CANNOT issue shares at a discount, EXCEPT sweat equity shares issued per S.54. Any share issued at a discount (in violation) is VOID, and the company + officers in default are liable to penalty."
+              },
+              {
+                "term": "Securities Premium - S.52",
+                "ref": "concept",
+                "body": "Premium received on share issue must be transferred to 'Securities Premium Account' - usable ONLY for specified purposes (issuing fully paid bonus shares, writing off preliminary expenses, writing off share/debenture issue expenses or discount, providing premium payable on redemption of preference shares/debentures, buy-back of own shares)."
+              },
+              {
+                "term": "Calls on shares & forfeiture",
+                "ref": "concept",
+                "body": "Company can call up unpaid amount on shares per AOA terms; if a shareholder fails to pay a call (with notice + reasonable time given), the Board can FORFEIT the shares - forfeiture extinguishes the shareholder's rights but the company can later re-issue the forfeited shares."
+              },
+              {
+                "term": "Variation of shareholders' rights - S.48",
+                "ref": "concept",
+                "body": "Rights of a class of shareholders can only be varied with consent of holders of 3/4ths of the issued shares of that class (in writing) OR by special resolution passed at a separate meeting of that class - dissenting shareholders (holding >=10% of that class) can apply to Tribunal to cancel the variation."
+              },
+              {
+                "term": "Further issue of share capital (Rights Issue) - S.62",
+                "ref": "concept",
+                "body": "Existing shareholders get pre-emptive right to be offered new shares in proportion to paid-up capital held, before offering to outsiders - offer open minimum 15 days, max 30 days; shareholder can renounce the offer in favour of another person."
+              },
+              {
+                "term": "Bonus shares - S.63",
+                "ref": "concept",
+                "body": "Issued out of free reserves, securities premium, or capital redemption reserve (NOT from reserves created by revaluation of assets) - fully paid-up, capitalizing accumulated profits, no cash outflow, must be authorized by AOA and shareholders, and company must not have defaulted on deposit/debenture/statutory dues repayment."
+              },
+              {
+                "term": "Buy-back of shares - S.68",
+                "ref": "concept",
+                "body": "Max 25% of total paid-up capital + free reserves in a financial year (10% via Board resolution alone; up to 25% needs special resolution); debt-equity ratio post-buyback must not exceed 2:1; buy-back must be completed within 1 year of resolution; cooling-off period of 1 year before another buy-back (with some exceptions for bonus/rights/ESOP issues)."
+              },
+              {
+                "term": "Capital Redemption Reserve (CRR)",
+                "ref": "concept",
+                "body": "Created when shares are redeemed/bought-back out of free reserves/securities premium (not out of fresh issue proceeds) - amount equal to nominal value of shares redeemed/bought back must be transferred to CRR, usable only for issuing fully paid bonus shares."
+              },
+              {
+                "term": "Debenture Redemption Reserve (DRR)",
+                "ref": "S.71",
+                "body": "Companies issuing debentures must create DRR out of profits available for dividend - amount and applicability vary by company type/listing status per rules; provides a cushion ensuring funds are earmarked for eventual debenture redemption."
+              },
+              {
+                "term": "Transfer vs Transmission of securities",
+                "ref": "comparison",
+                "body": "Transfer: voluntary act of the holder (sale/gift) - requires proper instrument of transfer. Transmission: operation of law (death, insolvency, inheritance) - no instrument of transfer needed, company registers based on legal evidence (succession certificate, probate, etc.)."
+              },
+              {
+                "term": "Refusal to register transfer & appeal",
+                "ref": "S.58/59",
+                "body": "Private company can refuse registration per AOA restrictions; public company has very limited grounds to refuse. Aggrieved person can appeal to the Tribunal (NCLT) within specified time limits against refusal or against transmission disputes."
+              }
+            ],
+            "caseLaws": [
+              {
+                "case": "New London & Brazilian Bank v. Brockle Bank",
+                "point": "A share is not merely a sum of money but an interest measured in money, comprising various contractual rights."
+              },
+              {
+                "case": "Borland's Trustee v. Steel Brothers & Co Ltd",
+                "point": "Share is the interest of a shareholder in the company, measured by a sum of money for liability and interest purposes, consisting of mutual covenants among shareholders per AOA."
+              }
+            ],
+            "numericalPatterns": [
+              {
+                "name": "Buy-back eligibility computation (25% capital+reserves cap, 2:1 debt-equity check)",
+                "howTo": "Compute 25% of (paid-up capital + free reserves) as the maximum buy-back value; separately verify post-buyback debt-equity ratio stays at or below 2:1 - BOTH conditions must be satisfied, and exceeding either blocks the buy-back regardless of the other."
+              },
+              {
+                "name": "Rights issue timeline computation",
+                "howTo": "From the date of offer, the acceptance window must be minimum 15 days and maximum 30 days - check the given dates against this window to determine if a rights issue notice period was compliant."
+              }
+            ],
+            "notes": "Dense, numerically-relevant chapter (the only one in Corporate Law alongside Buy-back with genuine percentage/ratio calculations). The buy-back 25%/2:1 dual-condition test and the bonus-vs-buy-back source-of-funds distinction (free reserves/securities premium vs CRR) are the highest-yield exam points."
+          }
+        },
+        {
+          "id": "p2-c6",
+          "name": "Acceptance of Deposits by Companies (Companies Act 2013, Ch. V)",
+          "weightage": "Medium",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Deposit - definition S.2(31)",
+                "ref": "concept",
+                "body": "Inclusive definition: any receipt of money by way of deposit/loan/any other form by a company, EXCLUDING prescribed categories (per Rules). Repayment is time-bound, can be secured/unsecured, accepted in joint names up to 3 persons, depositor can nominate."
+              },
+              {
+                "term": "Amounts NOT considered deposits",
+                "ref": "Rule 2(1)(c)",
+                "body": "Key exclusions: amounts from Central/State Govt or guaranteed by them, foreign Govts/banks/multilateral institutions, loans from banking companies/SBI/notified institutions/co-op banks, loans from public financial institutions/insurance companies/scheduled banks, commercial paper proceeds, inter-company deposits (ICD), share application money (if not refunded beyond prescribed period)."
+              },
+              {
+                "term": "Private company - deposits restriction",
+                "ref": "S.73",
+                "body": "Private company can accept deposits ONLY from its own members (not from public) - subject to conditions, unless it qualifies as a 'start-up' or meets specified exemption criteria allowing limited deposits without full compliance."
+              },
+              {
+                "term": "Eligible Company - deposits from public",
+                "ref": "S.76",
+                "body": "Only a 'public company' meeting specified net worth/turnover criteria (notified as 'Eligible Company') can accept deposits from the PUBLIC (in addition to members) - subject to credit rating requirement, deposit insurance, and other stringent conditions beyond what applies to member-only deposits."
+              },
+              {
+                "term": "Conditions for acceptance of deposits",
+                "ref": "S.73(2)",
+                "body": "Requires: circular/advertisement issued to members, deposit of at least 20% of deposits maturing in the financial year in a separate bank account ('deposit repayment reserve account'), deposit insurance (if applicable), certificate of no default in repayment of earlier deposits, providing security (if secured deposits)."
+              },
+              {
+                "term": "Repayment of deposits",
+                "ref": "S.74",
+                "body": "Where deposits were accepted before commencement of the 2013 Act provisions and remain unpaid, company must file a statement and repay within 1 year from commencement OR the due date, whichever is earlier."
+              },
+              {
+                "term": "Punishment for contravention - S.76A",
+                "ref": "concept",
+                "body": "Company liable to fine; every officer in default liable to imprisonment up to 7 years AND fine - reflects the seriousness with which deposit-related defaults are treated given the public-money safeguarding objective of this chapter."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [],
+            "notes": "Conceptual/recall chapter centered on the deposit-definition exclusion list. The private-vs-eligible-company distinction (members-only vs public deposits) is the most frequently tested conceptual point - exclusion list items (govt sources, banks, ICD) are good quick-recall MCQ material."
+          }
+        },
+        {
+          "id": "p2-c7",
+          "name": "Registration of Charges (Companies Act 2013, Ch. VI)",
+          "weightage": "Medium",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Charge - definition S.2(16)",
+                "ref": "concept",
+                "body": "Interest or lien created on property/assets of a company (or undertaking, or both) as SECURITY, includes mortgage - compulsorily registrable under Chapter VI."
+              },
+              {
+                "term": "Fixed Charge",
+                "ref": "concept",
+                "body": "Charge on SPECIFIC, identified assets of permanent nature (land, building, machinery) at time of creation. Asset CANNOT be sold during the charge period without charge-holder's consent. Vacated only on full repayment."
+              },
+              {
+                "term": "Floating Charge",
+                "ref": "concept",
+                "body": "Charge on a CLASS of assets (raw material, stock-in-trade, debtors) that fluctuates/changes - company CAN deal with these assets in ordinary course of business; buyer takes free of charge. 'Floats' above ever-changing assets until crystallization."
+              },
+              {
+                "term": "Crystallization of floating charge",
+                "ref": "concept",
+                "body": "When the charge-holder enforces security (due to breach of terms) OR the company goes into liquidation, the floating charge converts/crystallizes into a FIXED charge on all assets available on that date - company loses the freedom to deal with those assets thereafter."
+              },
+              {
+                "term": "Duty to register charges - S.77",
+                "ref": "concept",
+                "body": "Every company creating a charge must register particulars with the Registrar within 30 days of creation (extendable with additional fees up to specified further periods, beyond which Central Government condonation may be required)."
+              },
+              {
+                "term": "Effect of non-registration",
+                "ref": "S.77",
+                "body": "An UNREGISTERED charge is VOID against the liquidator and other creditors of the company - though the underlying debt itself remains valid and recoverable from the company directly, it loses priority/security status against third parties."
+              },
+              {
+                "term": "Satisfaction of charge - S.82/83",
+                "ref": "concept",
+                "body": "When the secured debt is fully repaid/satisfied, the company must intimate the Registrar within 30 days of the satisfaction date - Registrar then enters a memorandum of satisfaction in the Register of Charges."
+              },
+              {
+                "term": "Register of Charges - S.81/85",
+                "ref": "concept",
+                "body": "Registrar maintains a Register of Charges for all registered companies (publicly accessible). Company itself must also maintain its OWN register of charges at its registered office, open for inspection."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "Distinguishing fixed vs floating charge from an asset description",
+                "howTo": "Check: is the asset SPECIFIC/IDENTIFIED and of a PERMANENT nature that the company cannot freely sell (-> Fixed), or is it a CLASS of fluctuating assets the company continues trading with in the ordinary course (-> Floating)? This single test resolves nearly every fact-pattern MCQ in this chapter."
+              }
+            ],
+            "notes": "Short, focused chapter where the fixed-vs-floating distinction (and the crystallization trigger) is essentially the entire syllabus weight. The 30-day registration window and the void-against-liquidator consequence of non-registration are the other commonly tested specific facts."
+          }
+        },
+        {
+          "id": "p2-c8",
+          "name": "Management and Administration (Companies Act 2013, Ch. VII)",
+          "weightage": "High",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Registers to be maintained - S.88",
+                "ref": "concept",
+                "body": "Register of Members, Register of Debenture-holders, Register of any other Security-holders - maintained at registered office (or elsewhere if Board decides, within India), open for inspection by members/debenture-holders without fee."
+              },
+              {
+                "term": "Register of Significant Beneficial Owners - S.90",
+                "ref": "concept",
+                "body": "Tracks individuals who ultimately own/control a company indirectly (e.g. through layered corporate structures) even though not directly registered as members - aimed at beneficial-ownership transparency to combat shell-company misuse."
+              },
+              {
+                "term": "Annual Return - S.92",
+                "ref": "concept",
+                "body": "Every company must file an annual return (Form MGT-7/MGT-7A for OPC/small companies) within 60 days of the AGM (or, if no AGM held, within 60 days of the date it should have been held), containing particulars as of the close of the financial year - signed by a director and Company Secretary (or CS in practice for specified companies)."
+              },
+              {
+                "term": "Annual General Meeting (AGM) - S.96",
+                "ref": "concept",
+                "body": "Every company (except OPC) must hold an AGM each year - first AGM within 9 months of close of first financial year; subsequent AGMs within 6 months of close of financial year (gap between two AGMs not exceeding 15 months), held during business hours on a day that is not a national holiday."
+              },
+              {
+                "term": "Extraordinary General Meeting (EGM) - S.100",
+                "ref": "concept",
+                "body": "Called by the Board on its own motion, OR on requisition by members holding specified minimum voting power (10% of paid-up capital with voting rights, or 10% of total voting power in case of company without share capital) - for transacting urgent business between two AGMs."
+              },
+              {
+                "term": "Quorum for meetings - S.103",
+                "ref": "concept",
+                "body": "Public company: 5 members personally present if total members <=1000; 15 if 1001-5000; 30 if >5000. Private company: 2 members personally present, regardless of total membership."
+              },
+              {
+                "term": "Proxy - S.105",
+                "ref": "concept",
+                "body": "Member entitled to attend/vote can appoint another person (proxy) to attend/vote on their behalf - proxy need NOT be a member (except for S.8 companies, where proxy must be a member). Proxy form must be deposited 48 hours before the meeting."
+              },
+              {
+                "term": "Voting - methods",
+                "ref": "S.107-109",
+                "body": "Show of hands (default unless poll/e-voting demanded), Poll (demanded by specified members, gives proportionate weight to shareholding rather than one-member-one-vote), Postal Ballot (for specified businesses, no physical meeting required for that particular resolution), Electronic Voting (mandatory for listed companies and companies with 1000+ members)."
+              },
+              {
+                "term": "Ordinary vs Special Resolution",
+                "ref": "S.114",
+                "body": "Ordinary: passed by simple majority (votes cast in favour exceed votes cast against). Special: requires 3 times as many votes in favour as against (effectively 75% threshold) - used for more significant matters (e.g. altering MOA/AOA, reducing capital, certain related-party transactions)."
+              },
+              {
+                "term": "Minutes of meetings - S.118",
+                "ref": "concept",
+                "body": "Must be recorded within 30 days of the meeting's conclusion, in books kept for that purpose, signed/initialed as prescribed - minutes are PRIMA FACIE evidence of the proceedings, though not absolutely conclusive (can be challenged with sufficient contrary evidence)."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "Quorum determination from given membership count",
+                "howTo": "For a public company, check total members against the 3 thresholds (<=1000/1001-5000/>5000) to pick the correct quorum number (5/15/30); for a private company, it's flatly 2 regardless of total membership - apply directly."
+              },
+              {
+                "name": "AGM timeline compliance check",
+                "howTo": "Verify the gap between consecutive AGMs doesn't exceed 15 months AND each AGM falls within 6 months of financial year-end (9 months for the first AGM) - both conditions checked independently against the given dates."
+              }
+            ],
+            "notes": "High-weightage procedural chapter covering corporate governance mechanics. The quorum threshold table and the Ordinary-vs-Special resolution voting-majority distinction are the most frequently tested concrete numbers - build quick recall for both."
+          }
+        },
+        {
+          "id": "p2-c9",
+          "name": "Declaration and Payment of Dividend (Companies Act 2013, Ch. VIII)",
+          "weightage": "Medium",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Dividend - definition S.2(35)",
+                "ref": "concept",
+                "body": "Includes any interim dividend. In substance: distribution of profits (or free reserves where permitted) to members - shareholders' return on investment."
+              },
+              {
+                "term": "Dividend declaration process",
+                "ref": "concept",
+                "body": "Board RECOMMENDS the dividend rate in the Board's Report; shareholders APPROVE it at the AGM via ordinary resolution. Shareholders CANNOT declare dividend at a rate HIGHER than what the Board recommended - they can only approve the same rate or a lower one."
+              },
+              {
+                "term": "Dividend computed on face value, not market value",
+                "ref": "concept",
+                "body": "Dividend % is always applied to the FACE/NOMINAL value of the share, never the market price - e.g. 20% dividend on a Rs.10 face-value share = Rs.2 per share, regardless of the share trading at Rs.250 in the market."
+              },
+              {
+                "term": "Interim Dividend - S.123(3)/(4)",
+                "ref": "concept",
+                "body": "Declared by the BOARD (not shareholders) at any time between closure of financial year and the AGM, OR during the financial year itself - sourced from: surplus in P&L account, current year's profits, or profits up to the quarter preceding declaration. If company has incurred a LOSS up to that quarter, the rate of interim dividend cannot exceed the average dividend rate of the preceding 3 financial years."
+              },
+              {
+                "term": "Dividend out of accumulated reserves - conditions",
+                "ref": "concept",
+                "body": "If profits in a year are inadequate/absent, company can declare dividend out of accumulated profits from previous years (transferred to reserves), subject to prescribed conditions: rate not exceeding average of last 3 years, amount drawn not exceeding 1/10th of paid-up capital+free reserves, and accumulated losses must be set off first."
+              },
+              {
+                "term": "Unpaid/Unclaimed Dividend - S.124",
+                "ref": "concept",
+                "body": "Dividend not claimed/paid within 30 days of declaration must be transferred to a special 'Unpaid Dividend Account' within 7 days after the 30-day period. Amounts remaining unclaimed for 7 YEARS from transfer to that account must then be transferred to the Investor Education and Protection Fund (IEPF)."
+              },
+              {
+                "term": "Investor Education and Protection Fund (IEPF) - S.125",
+                "ref": "concept",
+                "body": "Established to credit unclaimed dividends/shares/matured deposits/debentures (after the 7-year unclaimed period) and to utilize funds for investor awareness, education, and protection activities - administered by an IEPF Authority."
+              },
+              {
+                "term": "Punishment for failure to distribute dividend - S.127",
+                "ref": "concept",
+                "body": "If dividend isn't paid/dispatched within 30 days of declaration, every director knowingly party to the default is punishable - WITH specified exceptions where non-payment is due to operation of law, shareholder instructions, or a dispute regarding entitlement (these are NOT treated as defaults)."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "Dividend amount computation from declared rate + face value + shareholding",
+                "howTo": "Dividend per share = declared % x FACE VALUE (never market price); total dividend = dividend per share x number of shares held - a simple but frequently mis-applied calculation if market value is mistakenly used instead of face value."
+              },
+              {
+                "name": "Interim dividend rate cap when current-year-to-date shows a loss",
+                "howTo": "If the company has incurred losses up to the end of the quarter preceding interim dividend declaration, the interim dividend rate cannot exceed the AVERAGE dividend rate declared by the company in the immediately preceding 3 financial years."
+              }
+            ],
+            "notes": "Moderate-weightage chapter with a few precise numerical rules (the 30-day/7-day/7-year unclaimed-dividend timeline, and the interim-dividend-during-a-loss rate cap). The face-value-not-market-value computation trap is a classic, easy-to-lose-marks-on point worth double-checking in every dividend numerical."
+          }
+        },
+        {
+          "id": "p2-c10",
+          "name": "Accounts of Companies (Companies Act 2013, Ch. IX)",
+          "weightage": "High",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Books of account - S.128",
+                "ref": "concept",
+                "body": "Must be kept at registered office (or elsewhere in India if Board decides, with ROC intimation within 7 days). Must capture: all money received/spent, all sales/purchases of goods+services, assets+liabilities, and cost items per S.148 if applicable. Preserved for minimum 8 years; non-compliance attracts fine of Rs.50,000 to Rs.5,00,000."
+              },
+              {
+                "term": "Financial Statement - S.2(40)/129",
+                "ref": "concept",
+                "body": "Includes: Balance Sheet, P&L Account (or Income & Expenditure for not-for-profit), Cash Flow Statement (EXEMPT for OPC/small company/dormant company/certain start-up private companies), Statement of Changes in Equity (if applicable), explanatory notes."
+              },
+              {
+                "term": "Re-opening/Recasting of accounts on Court/Tribunal order - S.130",
+                "ref": "concept",
+                "body": "Accounts can only be reopened on an order from a COURT OF COMPETENT JURISDICTION or the Tribunal (NCLT) - on application by specified authorities (Central Govt, Income-tax authorities, SEBI, or any other statutory regulatory body), where it's shown accounts were prepared in a fraudulent manner or affairs were mismanaged casting doubt on reliability."
+              },
+              {
+                "term": "Voluntary revision of financial statements - S.131",
+                "ref": "concept",
+                "body": "Company's directors can voluntarily revise FS or Board's Report for any of the preceding 3 financial years, IF they're satisfied the original wasn't in compliance with S.129/134, but ONLY after obtaining Tribunal approval - revised statements must be filed with Registrar."
+              },
+              {
+                "term": "National Financial Reporting Authority (NFRA) - S.132",
+                "ref": "concept",
+                "body": "Independent regulatory body for accounting/auditing standards oversight - monitors/enforces compliance with accounting+auditing standards, oversees quality of service of accounting/auditing professions, has powers to investigate professional/other misconduct (overlapping with, but separate from, ICAI's own disciplinary mechanism for certain classes of companies)."
+              },
+              {
+                "term": "Corporate Social Responsibility (CSR) - S.135",
+                "ref": "concept",
+                "body": "Applies to companies meeting threshold (net worth >=Rs.500 crore, OR turnover >=Rs.1000 crore, OR net profit >=Rs.5 crore in immediately preceding FY) - must spend at least 2% of average net profits of the preceding 3 FYs on CSR activities, constitute a CSR Committee, and report unspent CSR amounts with specific carry-forward/transfer rules to a designated fund if related to ongoing projects."
+              },
+              {
+                "term": "Right of members to copies of FS & filing with Registrar - S.136/137",
+                "ref": "concept",
+                "body": "Copies of FS (including consolidated FS, auditor's report, etc.) must be sent to members at least 21 days before the AGM. Adopted FS must be FILED with the Registrar within 30 days of the AGM (or, if AGM is delayed/not held, within the prescribed extended timeline with additional fees)."
+              },
+              {
+                "term": "Internal Audit - S.138",
+                "ref": "concept",
+                "body": "Mandatory for prescribed classes of companies (based on turnover/borrowings/public deposits/outstanding loan thresholds) - internal auditor can be a chartered accountant, cost accountant, or any other professional as the Board may decide; reports to the Board/Audit Committee on internal financial controls and operational effectiveness."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "CSR applicability + 2% spend computation",
+                "howTo": "Check if ANY ONE of the 3 threshold conditions (net worth/turnover/net profit) is met for the relevant preceding FY; if yes, compute average net profit of the preceding 3 financial years, then 2% of that average is the minimum mandatory CSR spend for the current year."
+              }
+            ],
+            "notes": "High-weightage chapter combining accounting compliance mechanics with the increasingly-tested CSR provisions. The 3-alternative CSR applicability test (any ONE threshold triggers applicability) and the 2%-of-3-year-average-profit computation are the signature numerical pattern here."
+          }
+        },
+        {
+          "id": "p2-c11",
+          "name": "Audit and Auditors (Companies Act 2013, Ch. X)",
+          "weightage": "High",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "First Auditor appointment - S.139(6)/(7)",
+                "ref": "concept",
+                "body": "Non-government company: Board appoints first auditor within 30 days of incorporation; if Board fails, members appoint within 90 days via EGM. Government company: CAG appoints first auditor within 60 days of incorporation."
+              },
+              {
+                "term": "Subsequent Auditor appointment & tenure",
+                "ref": "S.139(1)",
+                "body": "Appointed at the FIRST AGM (or the AGM in which appointed), holds office till conclusion of the 6th AGM thereafter (i.e. a 5-year term per appointment cycle, subject to ratification considerations under earlier law now removed - simply continues till 6th AGM unless removed/resigns)."
+              },
+              {
+                "term": "Manner of selection for specified companies",
+                "ref": "Rule 3",
+                "body": "Companies required to have an Audit Committee (per S.177): Audit Committee recommends auditor candidates to the Board, considering qualifications/experience/any pending disciplinary proceedings - Board then places recommendation before members for appointment."
+              },
+              {
+                "term": "Removal of auditor before term expiry - S.140(1)",
+                "ref": "concept",
+                "body": "Requires SPECIAL RESOLUTION of the company AND prior approval of the Central Government (application in prescribed form) - auditor must be given a reasonable opportunity of being heard before removal."
+              },
+              {
+                "term": "Resignation of auditor - S.140(2)",
+                "ref": "concept",
+                "body": "Auditor must file a statement (Form ADT-3) with the Registrar (and, for government companies, also with CAG) within 30 days of resignation, indicating reasons and relevant facts - non-compliance attracts a fine."
+              },
+              {
+                "term": "Eligibility, Qualification & Disqualification - S.141",
+                "ref": "concept",
+                "body": "Eligible: Chartered Accountant in practice (or firm/LLP of CAs). Disqualified: officer/employee of the company, person holding securities of the company (beyond a nominal prescribed value, with specified relatives), person who is indebted to the company beyond a prescribed amount, person who has provided a guarantee for company's debt beyond a prescribed amount, person whose relative is a director/KMP of the company."
+              },
+              {
+                "term": "Remuneration of Auditor - S.142",
+                "ref": "concept",
+                "body": "Fixed by the company in general meeting (or as the Board may fix, if so authorized by members) - includes expenses incurred for audit purposes but EXCLUDES any remuneration for other services rendered, which must be separately disclosed."
+              },
+              {
+                "term": "Powers & Duties of Auditor - S.143",
+                "ref": "concept",
+                "body": "Right of access to books of account/vouchers at all times; right to require information/explanation from officers; duty to report on whether FS give a true and fair view, comply with accounting standards, and on specific matters listed in S.143(3) (e.g. proper books maintained, adequate internal financial controls, qualifications/observations)."
+              },
+              {
+                "term": "Prohibited (non-audit) services - S.144",
+                "ref": "concept",
+                "body": "Auditor CANNOT render: accounting/bookkeeping services, internal audit, design/implementation of financial information systems, actuarial services, investment advisory/banking services, outsourced financial services, management services - aimed at preserving independence by avoiding self-review threats."
+              },
+              {
+                "term": "Signing of audit reports - S.145",
+                "ref": "concept",
+                "body": "Only the person appointed as auditor (or, in case of a firm, a partner practicing in India) can sign the audit report and other documents required to be signed/certified by the auditor."
+              },
+              {
+                "term": "Auditor's attendance at AGM - S.146",
+                "ref": "concept",
+                "body": "Auditor (or authorized representative who is also qualified to be an auditor) is entitled to attend the AGM unless specifically exempted by the company, and entitled to be heard on matters concerning them as auditor."
+              },
+              {
+                "term": "Punishment for contravention - S.147",
+                "ref": "concept",
+                "body": "Auditor contravening provisions liable to fine; if contravention is willful with intent to deceive, liable to imprisonment AND fine - for fraud-related contraventions, refund of remuneration + compensation for losses may also be ordered."
+              },
+              {
+                "term": "Cost Auditor - S.148",
+                "ref": "concept",
+                "body": "Central Government can direct specified classes of companies (engaged in production of prescribed goods/services) to maintain cost records and have them audited by a COST ACCOUNTANT in practice - separate appointment process from the financial statement auditor, though similar removal/resignation-type safeguards apply."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "First auditor appointment timeline + fallback",
+                "howTo": "Check if Board appointed within 30 days of incorporation; if not, the 90-day member-appointment-via-EGM fallback kicks in automatically - for government companies, substitute CAG's 60-day window instead of the Board's 30-day window."
+              },
+              {
+                "name": "Auditor disqualification check from a given fact pattern",
+                "howTo": "Cross-check the proposed auditor (or their relatives/firm) against each S.141 disqualification ground individually (employment, security holding, indebtedness, guarantee, relative as KMP/director) - any single match disqualifies them, regardless of how minor the connection seems."
+              }
+            ],
+            "notes": "Very high-weightage chapter (audit appointment/removal/eligibility mechanics are exam staples). The S.141 disqualification list and the removal-requires-Central-Govt-approval rule are the most frequently tested specific provisions - the disqualification checklist especially rewards careful, ground-by-ground checking rather than a gut-feel answer."
+          }
+        },
+        {
+          "id": "p2-c12",
+          "name": "Companies Incorporated Outside India (Companies Act 2013, Ch. XXII)",
+          "weightage": "Medium",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Foreign Company - definition S.2(42)",
+                "ref": "concept",
+                "body": "Any company/body corporate incorporated OUTSIDE India that: (a) has a place of business in India (whether by itself or through an agent, physically or via electronic mode), AND (b) conducts any business activity in India in any other manner."
+              },
+              {
+                "term": "Electronic mode - meaning",
+                "ref": "Rule 2(1)(h)",
+                "body": "Includes: B2B/B2C transactions and digital supply, accepting deposits/subscriptions in securities from India/Indian citizens, financial settlements/web-based marketing/advisory services, online services (telemarketing/telemedicine/education), related data communication via email/mobile/social media/cloud - broad enough to cover most digital cross-border business presence."
+              },
+              {
+                "term": "IFSC exception",
+                "ref": "Explanation to S.2(42)",
+                "body": "Electronic offering/subscription/listing of securities specifically within International Financial Services Centres (IFSC, set up under SEZ Act 2005) is NOT construed as 'electronic mode' for foreign-company classification purposes - a deliberate carve-out to support IFSC operations like GIFT City."
+              },
+              {
+                "term": "Application of Act to Foreign Companies - S.379",
+                "ref": "concept",
+                "body": "S.380-386, 392, 393 apply to ALL foreign companies as defined. If 50%+ of paid-up share capital (equity/preference/combined) is held by Indian citizens/Indian-incorporated companies (singly or in combination), the foreign company is treated as if it were an INDIAN company for purposes of business conducted in India - a 'deemed Indian company' rule to prevent using foreign shells to escape Indian compliance."
+              },
+              {
+                "term": "Documents to be delivered - S.380",
+                "ref": "concept",
+                "body": "Foreign company must file with Registrar within 30 days of establishing place of business in India: certified copy of charter/MOA-AOA equivalent, full address of registered/principal office, list of directors/secretary with particulars, name+address of authorized person(s) in India to accept service of process."
+              },
+              {
+                "term": "Accounts of Foreign Company - S.381",
+                "ref": "concept",
+                "body": "Must prepare financial statements relating to its Indian business operations (per Indian accounting standards/Schedule requirements as applicable) and file these with the Registrar annually, in addition to whatever home-country filing obligations exist."
+              },
+              {
+                "term": "Dating and Registration of Prospectus - S.387/389",
+                "ref": "concept",
+                "body": "Where a foreign company issues a prospectus offering Indian Depository Receipts (IDRs) or securities to the Indian public, the prospectus must be dated and registered with the Registrar before issue - similar safeguards to a domestic prospectus (expert consent provisions, specified particulars) apply."
+              },
+              {
+                "term": "Indian Depository Receipts (IDRs)",
+                "ref": "concept",
+                "body": "Instrument allowing a foreign company to raise capital from the INDIAN market without directly listing its own shares in India - the underlying foreign shares are held by a depository, and IDRs (representing those shares) are issued/traded in India, essentially the reverse mechanism of ADRs/GDRs."
+              },
+              {
+                "term": "Merger/amalgamation with foreign company - S.234",
+                "ref": "concept",
+                "body": "Permits cross-border mergers (Indian company merging with a foreign company incorporated in specified jurisdictions, and vice versa) subject to RBI approval and Tribunal (NCLT) sanction - opens pathways for genuine cross-border corporate restructuring beyond the foreign-company compliance chapter itself."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "50% Indian-holding test for 'deemed Indian company' treatment",
+                "howTo": "Aggregate paid-up share capital held by Indian citizens + Indian-incorporated companies/bodies corporate (singly or jointly) across equity AND preference; if this combined holding is 50% or more, the foreign company's Indian operations are treated under Indian-company-equivalent compliance standards rather than mere foreign-company filing requirements."
+              }
+            ],
+            "notes": "Niche but recurring chapter given globalization trends in the syllabus. The foreign-company definition's two-pronged test (place of business + business activity, including electronic mode) and the 50% Indian-holding deeming rule are the most conceptually tested points - the IDR mechanism (reverse of ADR/GDR from the FM syllabus) is a good cross-subject linkage point."
+          }
+        },
+        {
+          "id": "p2-c13",
+          "name": "Interpretation of Statutes, Deeds and Documents",
+          "weightage": "Medium",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "Statute - meaning",
+                "ref": "concept",
+                "body": "Synonymous with 'Act of Parliament' - the written law the legislature establishes directly. In India: enacted law passed by Parliament/State Legislature, after President's/Governor's assent. 'Enacted law' as against 'unenacted/unwritten law'."
+              },
+              {
+                "term": "Document - meaning",
+                "ref": "S.3(18) General Clauses Act / S.3 Evidence Act",
+                "body": "Any matter written/expressed/described on any substance by letters/figures/marks (or combination), intended/usable for recording that matter. 4 elements: Matter, Record (the mechanical/mutual device used), Substance (the medium), Means (letters/figures/marks/symbols)."
+              },
+              {
+                "term": "Instrument - meaning",
+                "ref": "S.2(14) Indian Stamp Act",
+                "body": "Includes every document by which any right or liability IS or PURPORTS to be created/transferred/extended/extinguished/recorded - broader than 'deed' (all deeds are instruments, but not all instruments are deeds)."
+              },
+              {
+                "term": "Deed - meaning",
+                "ref": "concept",
+                "body": "Instrument in writing purporting to effect some LEGAL DISPOSITION - a formal legal document. Subset of 'instrument'."
+              },
+              {
+                "term": "Why interpretation is needed",
+                "ref": "concept",
+                "body": "Enactments are often capable of more than one meaning/interpretation - the rules of interpretation provide a structured, consistent approach to resolving such ambiguity rather than ad-hoc judicial guessing."
+              },
+              {
+                "term": "Primary Rules of Interpretation",
+                "ref": "classification",
+                "body": "Literal/Grammatical Rule: words given their plain, ordinary, grammatical meaning - applied first, before any other rule. Mischief Rule (Heydon's Rule): looks at the 'mischief' the statute was intended to remedy, interprets to suppress that mischief. Golden Rule: modification of literal rule - departs from literal meaning ONLY if literal interpretation would lead to absurdity/inconsistency. Harmonious Construction: when two provisions conflict, interpret so both can operate together without one rendering the other redundant."
+              },
+              {
+                "term": "Secondary Rules of Interpretation",
+                "ref": "classification",
+                "body": "Noscitur a sociis: meaning of an unclear word is gathered from accompanying words in the same context. Ejusdem generis: where specific words are followed by general words, the general words are restricted to the same category as the specific words. Reddendo singula singulis: distributive interpretation - applying respective words to their respective subjects when a sentence has multiple subjects and multiple objects/verbs."
+              },
+              {
+                "term": "Internal Aids to Interpretation",
+                "ref": "concept",
+                "body": "Found WITHIN the statute itself: Title (long & short), Preamble (states the Act's objective), Headings, Marginal Notes, Definition/Interpretation clauses, Illustrations/Examples, Provisos (carve out exceptions), Explanations (clarify scope), Schedules."
+              },
+              {
+                "term": "External Aids to Interpretation",
+                "ref": "concept",
+                "body": "Found OUTSIDE the statute: Dictionaries (for undefined ordinary words), other statutes on the same subject (in pari materia), historical background/legislative debates, judicial decisions/precedent, foreign decisions (persuasive, not binding), reports of expert committees that preceded the legislation."
+              },
+              {
+                "term": "Rules of interpretation of Deeds and Documents",
+                "ref": "concept",
+                "body": "The document/deed must be read as a WHOLE to ascertain the true intent of parties; words given their ordinary/natural meaning unless context indicates a technical/special meaning was intended; if there's ambiguity, construed against the party who drafted it (contra proferentem) in certain contract contexts."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "Identifying which interpretation rule applies to a given ambiguous-statute scenario",
+                "howTo": "Check sequentially: does plain/literal meaning work without absurdity? If yes, stop there (Literal Rule). If literal reading creates absurdity, check if a minor departure fixes it (Golden Rule). If the issue is about which 'mischief'/problem the law targets, apply Mischief Rule. If two provisions seem to conflict, try Harmonious Construction before assuming one overrides the other."
+              }
+            ],
+            "notes": "Conceptually dense but low-numerical chapter - mostly about correctly NAMING which interpretation rule/aid applies to a given scenario. The Literal-Golden-Mischief-Harmonious sequence (in that rough priority order) and the internal-vs-external aid classification are the recurring MCQ patterns."
+          }
+        },
+        {
+          "id": "p2-c14",
+          "name": "The Foreign Exchange Management Act, 1999 (FEMA)",
+          "weightage": "High",
+          "pdfLink": "",
+          "status": "not-started",
+          "lastTouched": "2026-06-23",
+          "revisionCount": 1,
+          "practice": {
+            "mcqAttempted": 0,
+            "mcqCorrect": 0,
+            "numericalsAttempted": 0,
+            "numericalsCorrect": 0
+          },
+          "breakdown": {
+            "tier1": [
+              {
+                "term": "FEMA - background & objective",
+                "ref": "concept",
+                "body": "Replaced the more rigid/penal FERA 1973; enacted to FACILITATE external trade/payments and PROMOTE orderly development/maintenance of the forex market - shift from a 'control' regime to a 'management' regime, reflecting India's 1991 liberalization. Effective from 1 June 2000."
+              },
+              {
+                "term": "FEMA structure - 7 chapters",
+                "ref": "concept",
+                "body": "I: Preliminary (S.1-2), II: Regulation & Management of Foreign Exchange (S.3-9), III: Authorised Person (S.10-12), IV: Contravention & Penalties (S.13-15), V: Adjudication & Appeal (S.16-35), VI: Directorate of Enforcement (S.36-38), VII: Miscellaneous (S.39-49)."
+              },
+              {
+                "term": "Extent and Application - S.1",
+                "ref": "concept",
+                "body": "Extends to WHOLE of India + all branches/offices/agencies OUTSIDE India that are owned/controlled by a person resident in India + covers contraventions committed OUTSIDE India by any person to whom the Act applies (broad extraterritorial reach via the 'owned or controlled' test)."
+              },
+              {
+                "term": "Person Resident in India - definition",
+                "ref": "S.2(v)",
+                "body": "Person residing in India for MORE THAN 182 days in the preceding financial year - BUT excludes a person who has gone out of India (or stays outside) for taking up employment/business/vocation/any other purpose indicating an intention to stay outside for an UNCERTAIN period (even if the 182-day test would otherwise be met). Also includes certain entities (offices/branches in India) regardless of the day-count test."
+              },
+              {
+                "term": "Current Account Transaction",
+                "ref": "S.2(j)",
+                "body": "Transaction OTHER than a capital account transaction - includes: payments for foreign trade/services, interest on loans/income from investments, remittances for living expenses of family abroad, expenses for foreign travel/education/medical treatment."
+              },
+              {
+                "term": "Capital Account Transaction",
+                "ref": "S.2(e)",
+                "body": "Transaction that ALTERS the assets or liabilities (including contingent liabilities) outside India of persons resident in India, OR assets/liabilities in India of persons resident outside India - e.g. investments, borrowings, acquisition/transfer of immovable property abroad."
+              },
+              {
+                "term": "Regulation of Current Account Transactions - Schedule structure",
+                "ref": "concept",
+                "body": "Schedule I: transactions TOTALLY PROHIBITED (e.g. remittance for lottery winnings, banned magazines). Schedule II: transactions requiring PRIOR APPROVAL of Government of India for amounts beyond specified limits. Schedule III: transactions requiring PRIOR APPROVAL of RBI beyond specified limits. Below the specified limits in Schedules II/III, transactions are freely permitted through Authorised Dealers."
+              },
+              {
+                "term": "Regulation of Capital Account Transactions",
+                "ref": "concept",
+                "body": "Generally regulated more strictly than current account transactions - RBI/Central Government jointly prescribe permissible classes of capital account transactions and limits (e.g. Overseas Direct Investment limits, External Commercial Borrowing norms, Liberalised Remittance Scheme limits for resident individuals)."
+              },
+              {
+                "term": "Authorised Person",
+                "ref": "S.10",
+                "body": "Authorised Dealer, Money Changer, Off-shore Banking Unit, or any other person authorized under S.10(1) to deal in foreign exchange/foreign securities - the regulated intermediary channel through which most permitted forex transactions must flow."
+              },
+              {
+                "term": "Directorate of Enforcement",
+                "ref": "S.36",
+                "body": "Though RBI exercises overall regulatory control, ENFORCEMENT (investigation of contraventions, search/seizure powers) is specifically entrusted to this separate Directorate - distinct institutional split between regulation (RBI) and enforcement (Directorate of Enforcement)."
+              },
+              {
+                "term": "Adjudication, Compounding, and Appeal mechanism",
+                "ref": "concept",
+                "body": "Contraventions can be ADJUDICATED by designated authorities; many contraventions can be COMPOUNDED (settled by paying a specified sum, avoiding prolonged litigation); appeals lie to Special Director (Appeals) and further to the Appellate Tribunal for Foreign Exchange - provides a graduated dispute-resolution ladder distinct from ordinary criminal courts."
+              }
+            ],
+            "caseLaws": [],
+            "numericalPatterns": [
+              {
+                "name": "Classifying a transaction as Current Account vs Capital Account",
+                "howTo": "Ask: does the transaction ALTER assets/liabilities outside/inside India (creates/extinguishes an asset or liability, e.g. investment, loan, property purchase) -> Capital Account. Or is it a routine payment/receipt NOT altering the underlying asset/liability position (trade payment, travel expense, interest income) -> Current Account. This single test resolves most classification questions."
+              },
+              {
+                "name": "Determining which Schedule (I/II/III) governs a specific current account transaction",
+                "howTo": "Check the transaction against the specific notified list: is it on the absolute PROHIBITION list (Schedule I)? If not, does it need Government approval beyond a threshold (Schedule II) or RBI approval beyond a threshold (Schedule III)? Below the relevant threshold, it's freely permitted via an Authorised Dealer without specific approval."
+              }
+            ],
+            "notes": "High-weightage chapter given its overlap with international business/FDI topics tested elsewhere. The Current-vs-Capital account transaction classification test and the person-resident-in-India definition's 182-day-with-intention-exception nuance are the most frequently tested conceptual points - the residency definition deliberately differs from the Income-tax Act's residency test, a common source of confusion worth flagging explicitly."
+          }
         }
       ]
     },
@@ -3159,7 +4019,7 @@ const TRACKER_DATA = {
             "caseLaws": [
               {
                 "case": "Van Horne (definition)",
-                "point": "Firm value = market price of common stock; reflects all participants' judgment on future earnings, timing, risk, dividend policy."
+                "point": "Firm value = market price of common stock; reflects all participants' judgment on future earnings,timing, risk, dividend policy."
               },
               {
                 "case": "Phillippatus (definition)",
